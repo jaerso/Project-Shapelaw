@@ -70,16 +70,19 @@ p {
 
 section {
     min-height: 100%;  
-    text-align: center; 
+    text-align: center;
+}
+
+#bla {
+    overflow:auto; 
 }
 
 /* HOME */
 
-#home {
-    background-image: url(files/img/dark_tint.png), url(files/img/multiple_choice.jpg);
-    background-position: center center;
-    background-size: cover;
-    overflow:auto;
+#start {
+    background-image: url(../img/Nocube.png);
+    background-repeat: repeat;
+    
 }
 
 
@@ -92,11 +95,13 @@ text-align: center;
 }
 
 .home-center h1 {
-    color: #303F9F;
+    color: rgb(255, 255, 255);
+    font-size: 6em;
     }
 
     .home-center h2 {
-        color: #303F9F;
+        color: rgb(255, 255, 255);
+        font-size: 4em;
         }
 
 
@@ -106,7 +111,7 @@ text-align: center;
     left: 50%;
     transform: translate(-90%, -50%);
     
-    color: #303F9F;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -114,19 +119,56 @@ text-align: center;
 
 /* ABOUT */
 
-#about {
-    overflow:auto;
-    text-align: center;  
+#about { 
 }
 
-#two h1{
+#about h1{
     margin: 100px auto 0 auto !important;
     
 }
 
-#two h2{
+#about h2{
     margin: 0 auto 2em auto; 
     
+}
+
+/*Gestaltgesetze*/
+
+#Gestaltgesetze1 { 
+}
+
+#Gestaltgesetze1 h1{
+    margin: 100px auto 0 auto !important;
+}
+
+#Gestaltgesetze1 h2{
+    margin: 0 auto 2em auto; 
+}
+
+#Gestaltgesetze2 { 
+    background-color: rgb(236, 236, 236);
+}
+
+#Gestaltgesetze2 h1{
+    margin: 100px auto 0 auto !important;
+}
+
+#Gestaltgesetze2 h2{
+    margin: 0 auto 2em auto; 
+}
+
+
+/*Dialoggestalltung*/
+
+#Dialoggestalltung { 
+}
+
+#Dialoggestalltung h1{
+    margin: 100px auto 0 auto !important;
+}
+
+#Dialoggestalltung h2{
+    margin: 0 auto 2em auto; 
 }
 
 
