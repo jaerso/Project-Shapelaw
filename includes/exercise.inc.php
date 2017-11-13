@@ -52,23 +52,10 @@ function printExercise($q,$a){
     $id=$_GET['id'];
     $id-=1;
     $order=$orderq[$id];
-   // print_r($order);
     echo "<h2>$q[$order]</h2>";
     $j=0;
-   /* print_r($ordera);
-    echo"<br>";
-    print_r($orderq);
-    echo"<br>";
-    print_r($a);*/
-
     for($i=0;$i<sizeof($ordera);$i++,$j++){
-       
-       /* print_r($j);
-        echo"<br>";
-        print_r($id);
-        echo"<br>";*/
           $o=$ordera[$j];
-          /*print_r($o);*/
           $print= $a[$order][$o];
     echo "<p>$print</p> <br>";
     

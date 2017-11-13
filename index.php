@@ -24,17 +24,6 @@
               <span class="navbar-toggler-icon"></span>
             </button>
 
-<<<<<<< HEAD
-    <nav>
-        <ul>
-            <li><a href="index.php?page=home">Start</a></li>
-            <li><a href="index.php?page=appearance">Gestaltgesetze</a></li>
-            <li><a href="index.php?page=dialog">Dialoggesetze</a></li>
-            <li><a href="index.php?page=test&id=1">Test</a></li>
-            <li><a href="index.php?page=about">Über uns</a></li>
-        </ul>
-    </nav>
-=======
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
@@ -47,12 +36,11 @@
                   <a class="nav-link" href="index.php?page=dialog">Dialoggestalltung</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index.php?page=test">Test</a>
+                  <a class="nav-link" href="index.php?page=test&id=1">Test</a>
                 </li>
               </ul>
             </div>
           </nav>
->>>>>>> 6dbab8c2fb3c1746ed6e133a63846ff8bfe757db
 
     </header>
 
