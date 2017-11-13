@@ -1,5 +1,9 @@
+<?php
+//include_once "includes/frontendHandler.inc.php";
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +18,7 @@
             <li><a href="index.php?page=home">Start</a></li>
             <li><a href="index.php?page=appearance">Gestaltgesetze</a></li>
             <li><a href="index.php?page=dialog">Dialoggesetze</a></li>
-            <li><a href="index.php?page=test">Test</a></li>
+            <li><a href="index.php?page=test&id=1">Test</a></li>
             <li><a href="index.php?page=about">Über uns</a></li>
         </ul>
     </nav>
