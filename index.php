@@ -1,7 +1,3 @@
-<?php
-//include_once "includes/frontendHandler.inc.php";
-?>
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -36,7 +32,7 @@
                   <a class="nav-link" href="index.php?page=dialog">Dialoggestalltung</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index.php?page=test&id=1">Test</a>
+                  <a class="nav-link" href="index.php?page=teststart">Test</a>
                 </li>
               </ul>
             </div>
@@ -67,7 +63,7 @@
                 include_once "files/PHP/Dialoggesetze.php";
             }
             elseif($_GET['page'] =='test'){
-                include_once "files/PHP/Test.php";
+                include_once "files/PHP/TestStart.php";
             }
             elseif($_GET['page'] =='about'){
                 include_once "files/PHP/UeberUns.php";

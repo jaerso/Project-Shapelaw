@@ -1,10 +1,10 @@
 <?php
-include_once 'includes/exercise.inc.php';
-include_once 'includes/db.inc.php';
+include_once 'files/includes/exercise.inc.php';
+include_once 'files/includes/db.inc.php';
 $questions=generateQuestions($conn);
 $answers=generateAnswers($conn);
 ?>
-<h2> TEST <h2>
+
 
 
 
@@ -13,9 +13,8 @@ $answers=generateAnswers($conn);
     <?php
     //generateOrder();
    printExercise($questions,$answers);
-   
-/*print_r($questions);
-echo "<br>";
-print_r($answers);*/
+ 
+   <a href="index.php?page=test&id='$id'" class='button big'>Weiter zu Frage $id</a>"
     ?>
+      
 </div>

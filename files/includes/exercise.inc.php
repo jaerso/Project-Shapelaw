@@ -37,18 +37,18 @@ function generateAnswers($conn){
     return $answers;
     }
 
-   /* function generateOrder(){
+   function generateOrder(){
         $orderq=array(0,1);
         $ordera=array(0,1,2,3);
         shuffle($orderq);
         shuffle($ordera);
-    }*/
+    }
     
-function printExercise($q,$a){
-        $orderq=array(0,1);
+function printExercise($q,$a,$orderq,$ordera){
+     /*   $orderq=array(0,1);
         $ordera=array(0,1,2,3);
         shuffle($orderq);
-        shuffle($ordera);
+        shuffle($ordera);*/
     $id=$_GET['id'];
     $id-=1;
     $order=$orderq[$id];
@@ -60,5 +60,6 @@ function printExercise($q,$a){
     echo "<p>$print</p> <br>";
     
 }
+return $id;
 }
 ?>
