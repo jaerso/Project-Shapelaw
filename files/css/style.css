@@ -76,7 +76,7 @@ section {
 /* HOME */
 
 #home {
-    background-image: url(files/img/dark_tint.png), url(files/img/multiple_choice.jpg);
+    background-image: url(../files/img/dark_tint.png), url(../files/img/multiple_choice.jpg);
     background-position: center center;
     background-size: cover;
     overflow:auto;
@@ -110,6 +110,15 @@ text-align: center;
     text-decoration: none;
 }
 
+
+
+/* Gestaltgesetze */
+
+.Gestaltgesetz {
+    text-align: left !important;
+    margin-left: 12% !important;
+    margin-right: 12% !important;
+}
 
 
 /* ABOUT */
