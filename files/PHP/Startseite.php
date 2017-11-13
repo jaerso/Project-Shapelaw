@@ -1,4 +1,4 @@
-<section id="home">
+<section id="start">
 <div class="home-center">
     <h1>WILLKOMMEN</h1>
     <h2>auf Shapelaw</h2>
@@ -7,9 +7,13 @@
     <a href="#about">
         <i class="fa fa-angle-double-down fa-4x"></i>
       </a>
-  </section>
+      </div>
 
-  <section id="about">
+      </section>
+
+
+      <section id="about">
+  
       <div class="container">
       <h1>ÜBER UNS</h1>
       <hr>

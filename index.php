@@ -15,7 +15,7 @@
 <body>
     <header id="header">
         <nav class="navbar navbar-toggleable-xs navbar-expand-lg navbar-light bg-faded fixed-top">
-            <a class="navbar-brand" href="index.php?page=home">LOGO</a>
+            <a class="navbar-brand" href="index.php?page=home">Shapelaw</a>
           <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -40,7 +40,7 @@
 
     </header>
 
-    <section id="main" class="wrapper">
+    
 
     <?php 
         if(!isset($_GET['page'])){
@@ -74,7 +74,7 @@
         ?>
     </section>
 
-    <footer id="footer" class="fixed-bottom">
+    <footer id="footer">
     
           <div class="container">
                         <section class="links">
@@ -86,29 +86,29 @@
                     </div>
     
             <section class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-xs-12">
-                <h3>plceholder</h3>
+                <h3>placeholder</h3>
                 <ul class="unstyled">
-                  <li><a href="#">plceholder</a></li>
-                  <li><a href="#">plceholder</a></li>
-                  <li><a href="#">plceholder</a></li>
+                  <li><a href="#">placeholder</a></li>
+                  <li><a href="#">placeholder</a></li>
+                  <li><a href="#">placeholder</a></li>
                 </ul>
               </section>
     
                                 <section class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-xs-12">
-                                    <h3>plceholder</h3>
+                                    <h3>placeholder</h3>
                                     <ul class="unstyled">
-                                        <li><a href="#">plceholder</a></li>
-                                        <li><a href="#">plceholder</a></li>
-                                        <li><a href="#">plceholder</a></li>
+                                        <li><a href="#">placeholder</a></li>
+                                        <li><a href="#">placeholder</a></li>
+                                        <li><a href="#">placeholder</a></li>
                                     </ul>
                   </section>
     
                                 <section class="col-lg-3 col-lg-push-1 col-md-3 col-md-push-1 col-xs-12">
-                                    <h3>plceholder</h3>
+                                    <h3>placeholder</h3>
                                     <ul class="unstyled">
-                                        <li><a href="#">plceholder</a></li>
-                                        <li><a href="#">plceholder</a></li>
-                                        <li><a href="#">plceholder</a></li>
+                                        <li><a href="#">placeholder</a></li>
+                                        <li><a href="#">placeholder</a></li>
+                                        <li><a href="#">placeholder</a></li>
                                     </ul>
                   </section>
     
