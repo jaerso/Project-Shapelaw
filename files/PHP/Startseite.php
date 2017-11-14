@@ -1,7 +1,7 @@
 <section id="start">
 <div class="home-center">
     <h1>WILLKOMMEN</h1>
-    <h2>auf Shapelaw</h2>
+    <h2>auf der Prototyp-Seite von Shapelaw</h2>
   </div>
 
     <a href="#about">

@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="files/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="files/css/style.css"/>
 
-    <title>Shapelaw</title>
+    <title>(Prototyp) Shapelaw</title>
 </head>
 
 <body>
     <header id="header">
         <nav class="navbar navbar-toggleable-xs navbar-expand-lg navbar-light bg-faded fixed-top">
-            <a class="navbar-brand" href="index.php?page=home">Shapelaw</a>
+            <a class="navbar-brand" href="index.php?page=home">(Prototyp) Shapelaw</a>
           <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
