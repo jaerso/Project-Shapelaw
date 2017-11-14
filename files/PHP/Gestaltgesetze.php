@@ -1,9 +1,10 @@
+<div class ="container" id = "Seitenüberschrift">
+    <h1> Gestaltgesetze </h1>
+</div>
 
-<h2> Gestaltgesetze </h2>
+<div class = "container">
 
-<section class = "Gestaltgesetze" id = "Gestaltgesetze1">
-
-    <h3> Gesetz der Ähnlichkeit / Gleichheit </h3>
+    <h1> Gesetz der Ähnlichkeit / Gleichheit </h1>
 
     <p>Elemente, welche einander gleichen, nehmen wir als zusammengehörig wahr. 
     Dabei vergleichen wir die optischen Reize bei verschiedenfarbigen Elementen,
@@ -26,11 +27,16 @@
     <p>Gleiches gilt für Buttons auf Webseiten. Durch ihre ähnliche Form und evtl. auch farbliche Absetzung fasst der Nutzer diese Buttons einer funktionalen Gruppe zusammen. </p>
 
     <p>Das Gesetz der Ähnlichkeit wird verstärkt durch das Gesetz der Nähe.</p>
-</section>
 
-<section class = "Gestaltgesetz">
+</div>
 
-    <h3> 
+
+
+<div class ="container">
+
+    <h1> </h2>
+
+</div>
 
 
 
