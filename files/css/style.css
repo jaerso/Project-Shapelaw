@@ -73,6 +73,10 @@ section {
     text-align: center;
 }
 
+#main {
+    margin: 100px auto 0 auto !important;
+}
+
 /* HOME */
 
 #start {
@@ -119,7 +123,7 @@ text-align: center;
 }
 
 #about h1{
-    margin: 100px auto 0 auto !important;
+    margin: 2em auto 0 auto !important;
     
 }
 
@@ -134,7 +138,7 @@ text-align: center;
 }
 
 #Gestaltgesetze h1{
-    margin: 100px auto 0 auto !important;
+    margin: 2em auto 0 auto !important;
 }
 
 #Gestaltgesetze h2{
@@ -148,7 +152,7 @@ text-align: center;
 }
 
 #Dialoggestalltung h1{
-    margin: 100px auto 0 auto !important;
+    margin: 2em auto 0 auto !important;
 }
 
 #Dialoggestalltung h2{

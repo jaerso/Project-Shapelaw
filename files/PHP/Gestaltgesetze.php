@@ -1,7 +1,7 @@
-
+<div class="container">
 <h2> Gestaltgesetze </h2>
 
-<section class = "Gestaltgesetze" id = "Gestaltgesetze1">
+<div id="Gestaltgesetze">
 
     <h3> Gesetz der Ähnlichkeit / Gleichheit </h3>
 
@@ -26,12 +26,13 @@
     <p>Gleiches gilt für Buttons auf Webseiten. Durch ihre ähnliche Form und evtl. auch farbliche Absetzung fasst der Nutzer diese Buttons einer funktionalen Gruppe zusammen. </p>
 
     <p>Das Gesetz der Ähnlichkeit wird verstärkt durch das Gesetz der Nähe.</p>
-</section>
+</div>
 
-<section class = "Gestaltgesetz">
+<div id="Gestaltgesetze">
 
     <h3> 
 
 
 
 </section>
+</div>
