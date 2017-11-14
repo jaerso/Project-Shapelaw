@@ -1,7 +1,7 @@
 
 <h2> Gestaltgesetze </h2>
 
-<section class = "Gestaltgesetz">
+<section class = "Gestaltgesetze" id = "Gestaltgesetze1">
 
     <h3> Gesetz der Ähnlichkeit / Gleichheit </h3>
 
