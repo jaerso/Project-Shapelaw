@@ -37,16 +37,16 @@ function generateAnswers($conn){
     return $answers;
     }
 
-   function generateOrderQuestion(){
+   /*function generateOrderQuestion(){
         $orderq=array(0,1);
         shuffle($orderq);
     }
     function generateOrderAnswer(){
         $ordera=array(0,1,2,3);
         shuffle($ordera);
-    }
+    }*/
     
-function printExercise($q,$a,$orderq,$ordera){
+/*function printExercise($q,$a,$orderq,$ordera){
     $id=$_GET['id'];
     $id-=1;
     $order=$orderq[$id];
@@ -59,5 +59,20 @@ function printExercise($q,$a,$orderq,$ordera){
     
 }
 return $id;
+}*/
+
+    
+function printExercise($q,$a){
+    $id=$_GET['id'];
+    $id-=1;
+   // $order=$orderq[$id];
+    echo "<h2>$q[$id]</h2>";
+    $j=0;
+    for($i=0;$i<4;$i++,$j++){
+          //$o=$ordera[$j];
+          $print= $a[$id][$j];
+    echo "<p>$print</p> <br>";
+    
+}
 }
 ?>

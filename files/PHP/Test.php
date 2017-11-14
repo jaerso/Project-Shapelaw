@@ -1,24 +1,20 @@
 <?php
+session_start();
 include_once 'files/includes/exercise.inc.php';
 include_once 'files/includes/db.inc.php';
 $questions=generateQuestions($conn);
 $answers=generateAnswers($conn);
-$orderq=$_POST['orderq'];
-$ordera=$_POST['ordera'];
+$id=$_GET['id'];
+//$orderq=$_SESSION['orderq'];
+//$ordera=$_SESSION['ordera'];
 
 ?>
-
-
-
-
-
 <div>
     <?php
-    //generateOrder();
-   printExercise($questions,$answers,$orderq,$ordera);
- 
-  // <a href="index.php?page=test&id='$id'" class='button big'>Weiter zu Frage $id</a>"
+   //printExercise($questions,$answers,$orderq,$ordera);
+   printExercise($questions,$answers);
+   $id++;
+   echo "<a href='index.php?page=test&id=$id' >Weiter zu Frage $id</a>";
   ?>
       
 </div>
-header("Location: ./../../index.php?page=test&id=1");
