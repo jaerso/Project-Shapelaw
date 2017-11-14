@@ -13,16 +13,30 @@ value int(1) not null
 );
 
 
-INSERT INTO questions (q) VALUES ('Welche Farbe hat meine Unterhose');
+INSERT INTO questions (q) VALUES ('Ergänze: Die ... goldenen Regeln der Dialoggestaltung.');
 
-INSERT INTO answers (ans, q_id, value) VALUES ('Blau',1,0);
-INSERT INTO answers (ans, q_id, value) VALUES ('Schwarz',1,1);
-INSERT INTO answers (ans, q_id, value) VALUES ('Grau',1,0);
-INSERT INTO answers (ans, q_id, value) VALUES ('Wei�',1,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('drölf',1,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('acht',1,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('sechs',1,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('zehn',1,0);
 
-INSERT INTO questions (q) VALUES ('Bist du ein ein Br�stemensch oder ein Bootymensch?');
+INSERT INTO questions (q) VALUES ('Welche Regel der Dialoggestaltung besagt, dass verwandte Funktionen Systemübergreifend immer vorhanden, gleich heoßen und gleich funktionieren sollten?');
 
-INSERT INTO answers (ans, q_id, value) VALUES ('Falsche Antwort',2,0);
-INSERT INTO answers (ans, q_id, value) VALUES ('Falsche Antwort',2,0);
-INSERT INTO answers (ans, q_id, value) VALUES ('Booty',2,1);
-INSERT INTO answers (ans, q_id, value) VALUES ('Falsche Antwort',2,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Benutzerkontrolle',2,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Abkürzungen für erfahrene Benutzer bereitstellen',2,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Konsistenz anstreben',2,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Kurzzeitgedächtnis entlasten',2,0);
+
+INSERT INTO questions (q) VALUES ('An welche User richtet sich die goldene Dialogregel der Abkürzungen (Shortcuts)?');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('An neue User',3,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('An erfahrene User',3,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('An benachteiligte User',3,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('An Kinder bis 13 Jahre',3,0);
+
+INSERT INTO questions (q) VALUES ('Was versteht man unter informativem Feedback?');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Verwandte Funktionen wie Löschen oder Weiter sollten Systemübergreifend immer gleich heißen ',1,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Auf jede Systemeingabe des Benutzers solle eine Systemrückmeldung erfolgen, die den derzeitigen Status verstädnlich erläutert',1,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Das System sollte dem Benutzer das Gefühl des Eingebers und nicht das des Antwortenden vermitteln',1,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Der Webseitenersteller gibt persönliches Feedback zu beantworteten Fragen und Formularen',1,0);

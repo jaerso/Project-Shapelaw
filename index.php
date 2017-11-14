@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="files/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="files/css/style.css"/>
 
-    <title>Gestaltungsgesetze</title>
+    <title>Shapelaw</title>
 </head>
 
 <body>

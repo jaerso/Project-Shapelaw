@@ -6,6 +6,8 @@
 
         <h1> Gesetz der Ähnlichkeit / Gleichheit </h1>
 
+        <hr>
+
         <p>Elemente, welche einander gleichen, nehmen wir als zusammengehörig wahr. 
         Dabei vergleichen wir die optischen Reize bei verschiedenfarbigen Elementen,
         unterscheiden zwischen Helligkeiten, Größe der Elemente oder ihrer Orientierung aber auch ihrer Form. 
