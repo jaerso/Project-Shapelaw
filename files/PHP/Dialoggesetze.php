@@ -1,8 +1,8 @@
 <div class="container">
-<div id="Dialoggestalltung">
+<div id="Dialoggestaltung">
 
     
-<h1>Dialoggestalltung 1</h1>
+<h1>Dialoggestaltung 1</h1>
 
 <hr>
 
@@ -11,9 +11,9 @@
     </p>
     </div>
 
-<div id="Dialoggestalltung">
+<div id="Dialoggestaltung">
 
-<h1>Dialoggestalltung 2</h1>
+<h1>Dialoggestaltung 2</h1>
 
 <hr>
 

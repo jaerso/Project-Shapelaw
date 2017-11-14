@@ -19,10 +19,8 @@
       <hr>
 
       <h2><strong>Was kannst du hier machen?</strong></h2>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy 
-          eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam 
-          voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet 
-          clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      <p>Hier auf Shapelaw findest du viele Informationen zu den Gestaltgesetzen sowie Richtlinien zur Dialoggestaltung.
+      Zudem kannst du mit einem "Abschlusstest" dein erlerntes Wissen testen.
       </p>
 
     </div>
