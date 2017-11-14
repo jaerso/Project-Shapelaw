@@ -73,8 +73,8 @@ section {
     text-align: center;
 }
 
-#bla {
-    overflow:auto; 
+#main {
+    margin: 100px auto 0 auto !important;
 }
 
 /* Seitenüberschrift */
@@ -124,9 +124,12 @@ text-align: center;
 
 /* ABOUT */
 
+#about { 
+    overflow:auto; 
+}
 
 #about h1{
-    margin: 100px auto 0 auto !important;
+    margin: 2em auto 0 auto !important;
     
 }
 
@@ -137,6 +140,19 @@ text-align: center;
 
 /*Gestaltgesetze*/
 
+<<<<<<< HEAD
+=======
+#Gestaltgesetze { 
+}
+
+#Gestaltgesetze h1{
+    margin: 2em auto 0 auto !important;
+}
+
+#Gestaltgesetze h2{
+    margin: 0 auto 2em auto; 
+}
+>>>>>>> 90fabc46c78b7436ce880fc78c9ce6f41b11256d
 
 
 /*Dialoggestalltung*/
@@ -145,7 +161,7 @@ text-align: center;
 }
 
 #Dialoggestalltung h1{
-    margin: 100px auto 0 auto !important;
+    margin: 2em auto 0 auto !important;
 }
 
 #Dialoggestalltung h2{

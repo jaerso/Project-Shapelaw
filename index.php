@@ -50,8 +50,9 @@
         ?>
 
         <?php
-        if($_GET['page'] != 'home' && $_GET['page'] != 'appearance' && $_GET['page'] != 'dialog' && $_GET['page'] != 'test' &&$_GET['page'] != 'about' || $_GET['page'] == null){ echo "<div class=\"container\">";}
+        if($_GET['page'] != 'home'  || $_GET['page'] == null){ echo "<div id=\"main\">";}
         ?>
+
             <?php
             if($_GET['page'] =='home'){
                 include_once "files/PHP/Startseite.php";
@@ -62,7 +63,7 @@
             elseif($_GET['page'] =='dialog'){
                 include_once "files/PHP/Dialoggesetze.php";
             }
-            elseif($_GET['page'] =='test'){
+            elseif($_GET['page'] =='teststart'){
                 include_once "files/PHP/TestStart.php";
             }
             elseif($_GET['page'] =='about'){
@@ -72,7 +73,6 @@
 
         <?php if($_GET['page']!='home'){echo "</div>";}
         ?>
-    </section>
 
     <footer id="footer">
     

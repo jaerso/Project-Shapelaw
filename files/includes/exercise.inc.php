@@ -42,6 +42,8 @@ function generateAnswers($conn){
         $ordera=array(0,1,2,3);
         shuffle($orderq);
         shuffle($ordera);
+        print_r($orderq);
+        print_r($ordera);
     }
     
 function printExercise($q,$a,$orderq,$ordera){
