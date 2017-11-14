@@ -77,6 +77,12 @@ section {
     margin: 100px auto 0 auto !important;
 }
 
+/* Seitenüberschrift */
+
+#Seitenüberschrift {
+    margin: 100px auto 50px auto !important;
+}
+
 /* HOME */
 
 #start {
@@ -134,6 +140,8 @@ text-align: center;
 
 /*Gestaltgesetze*/
 
+<<<<<<< HEAD
+=======
 #Gestaltgesetze { 
 }
 
@@ -144,6 +152,7 @@ text-align: center;
 #Gestaltgesetze h2{
     margin: 0 auto 2em auto; 
 }
+>>>>>>> 90fabc46c78b7436ce880fc78c9ce6f41b11256d
 
 
 /*Dialoggestalltung*/
