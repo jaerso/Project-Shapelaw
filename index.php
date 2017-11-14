@@ -62,7 +62,7 @@
             elseif($_GET['page'] =='dialog'){
                 include_once "files/PHP/Dialoggesetze.php";
             }
-            elseif($_GET['page'] =='test'){
+            elseif($_GET['page'] =='teststart'){
                 include_once "files/PHP/TestStart.php";
             }
             elseif($_GET['page'] =='about'){
