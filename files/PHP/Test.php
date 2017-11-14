@@ -20,5 +20,5 @@ $ordera=$_POST['ordera'];
   // <a href="index.php?page=test&id='$id'" class='button big'>Weiter zu Frage $id</a>"
   ?>
       
-echo"</div>";
+</div>
 header("Location: ./../../index.php?page=test&id=1");
