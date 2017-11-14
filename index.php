@@ -29,10 +29,10 @@
                   <a class="nav-link" href="index.php?page=appearance">Gestaltgesetze</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index.php?page=dialog">Dialoggestalltung</a>
+                  <a class="nav-link" href="index.php?page=dialog">Dialoggestaltung</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="index.php?page=teststart">Test</a>
+                  <a class="nav-link" href="index.php?page=test">Test</a>
                 </li>
               </ul>
             </div>
@@ -62,8 +62,12 @@
             elseif($_GET['page'] =='dialog'){
                 include_once "files/PHP/Dialoggesetze.php";
             }
-            elseif($_GET['page'] =='teststart'){
-                include_once "files/PHP/TestStart.php";
+            elseif($_GET['page'] =='test'){
+                if(isset($_GET['id'])){
+                    include_once "files/PHP/Test.php";
+                }
+                else{include_once "files/PHP/TestStart.php";}
+                
             }
             elseif($_GET['page'] =='about'){
                 include_once "files/PHP/UeberUns.php";
