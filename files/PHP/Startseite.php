@@ -1,7 +1,7 @@
 <section id="start">
 <div class="home-center">
     <h1>WILLKOMMEN</h1>
-    <h2>auf der Prototyp-Seite von Shapelaw</h2>
+    <h2>auf der Prototyp-Seite von <strong>Shapelaw</strong></h2>
   </div>
 
     <a href="#about">
@@ -19,7 +19,7 @@
       <hr>
 
       <h2><strong>Was kannst du hier machen?</strong></h2>
-      <p>Hier auf Shapelaw findest du viele Informationen zu den Gestaltgesetzen sowie Richtlinien zur Dialoggestaltung.
+      <p>Hier auf <strong>Shapelaw</strong> findest du viele Informationen zu den Gestaltgesetzen, sowie Richtlinien zur Dialoggestaltung.
       Zudem kannst du mit einem "Abschlusstest" dein erlerntes Wissen testen.
       </p>
 

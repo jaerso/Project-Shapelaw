@@ -22,6 +22,20 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
+
+              <?php
+  $nav = "
+       <li ".(( $_GET['page'] == 'home') ? 'class="active"' : '')."><a href=\"index.php?page=home\">Start</a></li>
+       <li ".(( $_GET['page'] == 'appearance') ? 'class="active"' : '')."><a href=\"index.php?page=appearance\">Gestaltgesetze</a></li>
+       <li ".(( $_GET['page'] == 'dialog') ? 'class="active"' : '')."><a href=\"index.php?page=dialog\">Dialoggestaltung</a></li>
+       <li ".(( $_GET['page'] == 'test') ? 'class="active"' : '')."><a href=\"index.php?page=test\">Test</a></li>
+       ";
+    echo $nav;
+?>
+
+<!--alte li-Elemente, ohne active status-->
+
+              <!--
                 <li class="nav-item">
                   <a class="nav-link" href="index.php?page=home">Start <span class="sr-only">(current)</span></a>
                 </li>
@@ -34,6 +48,8 @@
                 <li class="nav-item">
                   <a class="nav-link" href="index.php?page=test">Test</a>
                 </li>
+                -->
+            
               </ul>
             </div>
           </nav>
@@ -138,5 +154,4 @@
     <script src="files/js/scripts.js"></script>
     
 </body>
-
 </html>
