@@ -10,6 +10,11 @@ p {
     font-size: 1.6em;
 }
 
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
 /* Navigation */
 
 #header nav a {
@@ -77,12 +82,6 @@ section {
     margin: 100px auto 0 auto !important;
 }
 
-/* Seitenüberschrift */
-
-#Seitenüberschrift {
-    margin: 100px auto 50px auto !important;
-}
-
 /* HOME */
 
 #start {
@@ -140,6 +139,11 @@ text-align: center;
 }
 
 /*Gestaltgesetze*/
+
+.content-img{
+    float: right !important;
+    margin: 30px 30px 20px 30px !important;
+}
 
 #Gestaltgesetze { 
 }
