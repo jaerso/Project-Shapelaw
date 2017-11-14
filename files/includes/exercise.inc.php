@@ -71,7 +71,9 @@ function printExercise($q,$a){
     for($i=0;$i<4;$i++,$j++){
           //$o=$ordera[$j];
           $print= $a[$id][$j];
-    echo "<p>$print</p> <br>";
+    echo "<p>$print</p> 
+    <input type='radio'  name='$j' >
+    <br>";
     
 }
 }
