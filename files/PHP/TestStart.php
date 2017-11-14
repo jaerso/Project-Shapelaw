@@ -5,7 +5,16 @@ include_once 'files/includes/db.inc.php';
 <div>
 <h2> TEST <h2>
 <?php
-generateOrder()
+$orderq=generateOrderQuestion();
+$ordera=generateOrderAnswer();
+
+echo "<form action='Test.php' method='POST'>
+<input type='hidden' name='orderq' value='$orderq'>
+<input type='hidden' name='ordera' value='$ordera'>
+
+<button type='submit' name='submit'>Test starten!</button></a>";
+//<a href='index.php?page=test&id=1'>
 ?>
-<a href='index.php?page=test&id=1' class='button big'>Test starten!</a>"
+</form>
+
 </div>

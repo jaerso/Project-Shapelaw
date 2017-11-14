@@ -1,0 +1,28 @@
+CREATE DATABASE SE;
+
+CREATE TABLE questions(
+q_id int(11) not null AUTO_INCREMENT PRIMARY KEY,
+q varchar(256) not null
+);
+
+CREATE TABLE answers(
+ans_id int(11) not null AUTO_INCREMENT PRIMARY KEY,
+ans varchar(256) not null,
+q_id varchar(256) not null,
+value int(1) not null
+);
+
+
+INSERT INTO questions (q) VALUES ('Welche Farbe hat meine Unterhose');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Blau',1,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Schwarz',1,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Grau',1,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Weiß',1,0);
+
+INSERT INTO questions (q) VALUES ('Bist du ein ein Brüstemensch oder ein Bootymensch?');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Falsche Antwort',2,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Falsche Antwort',2,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Booty',2,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Falsche Antwort',2,0);

@@ -37,20 +37,16 @@ function generateAnswers($conn){
     return $answers;
     }
 
-   function generateOrder(){
+   function generateOrderQuestion(){
         $orderq=array(0,1);
-        $ordera=array(0,1,2,3);
         shuffle($orderq);
+    }
+    function generateOrderAnswer(){
+        $ordera=array(0,1,2,3);
         shuffle($ordera);
-        print_r($orderq);
-        print_r($ordera);
     }
     
 function printExercise($q,$a,$orderq,$ordera){
-     /*   $orderq=array(0,1);
-        $ordera=array(0,1,2,3);
-        shuffle($orderq);
-        shuffle($ordera);*/
     $id=$_GET['id'];
     $id-=1;
     $order=$orderq[$id];
