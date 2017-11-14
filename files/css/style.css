@@ -73,10 +73,6 @@ section {
     text-align: center;
 }
 
-#bla {
-    overflow:auto; 
-}
-
 /* HOME */
 
 #start {
@@ -120,6 +116,7 @@ text-align: center;
 /* ABOUT */
 
 #about { 
+    overflow:auto; 
 }
 
 #about h1{
@@ -134,26 +131,14 @@ text-align: center;
 
 /*Gestaltgesetze*/
 
-#Gestaltgesetze1 { 
+#Gestaltgesetze { 
 }
 
-#Gestaltgesetze1 h1{
+#Gestaltgesetze h1{
     margin: 100px auto 0 auto !important;
 }
 
-#Gestaltgesetze1 h2{
-    margin: 0 auto 2em auto; 
-}
-
-#Gestaltgesetze2 { 
-    background-color: rgb(236, 236, 236);
-}
-
-#Gestaltgesetze2 h1{
-    margin: 100px auto 0 auto !important;
-}
-
-#Gestaltgesetze2 h2{
+#Gestaltgesetze h2{
     margin: 0 auto 2em auto; 
 }
 
