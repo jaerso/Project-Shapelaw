@@ -1,3 +1,5 @@
+<div id="main">
+<div class="container">
 <?php
 session_start();
 include_once 'files/includes/exercise.inc.php';
@@ -17,4 +19,6 @@ $id=$_GET['id'];
    echo "<a href='index.php?page=test&id=$id' >Weiter zu Frage $id</a>";
   ?>
       
+</div>
+</div>
 </div>
