@@ -1,10 +1,11 @@
+<section id="teststart">
+<div class="test-center">
 <?php
 include_once 'files/includes/exercise.inc.php';
 include_once 'files/includes/db.inc.php';
 session_start();
 ?>
-<div>
-<h2> TEST <h2>
+<h1>Hier kannst du dein erlerntes Wissen testen<h1>
 <?php
 /*$orderq=generateOrderQuestion();
 $ordera=generateOrderAnswer()
@@ -22,9 +23,10 @@ generateOrderQuestion();
 <button type='submit' name='submit'>Test starten!</button></a>";
 //<a href='index.php?page=test&id=1'>*/
 ?>
-<a href="./index.php?page=test&id=1">Test starten!</a>
+<button class="btn btn-1 btn-1a" ><a href="./index.php?page=test&id=1"> Starte jetzt den Test!</a></button>
 <!--echo "<a href='../../index.php?page=test&id=1?'".$orderq."'&'".$ordera."'>Test starten!</a>";-->
 
 </form>
 
 </div>
+</section>

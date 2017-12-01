@@ -1,3 +1,5 @@
+<div id="main">
+<div class="container">
 <?php
 session_start();
 include_once 'files/includes/exercise.inc.php';
@@ -23,4 +25,6 @@ echo "<div>";
    echo "<button type='button' onclick='check()'><a href='index.php?page=test&id=$id' class='button big'>Weiter zu Frage $id</a></button>";
   ?>
       
+</div>
+</div>
 </div>

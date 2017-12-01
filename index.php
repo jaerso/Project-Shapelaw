@@ -80,7 +80,7 @@
         ?>
 
         <?php
-        if($_GET['page'] != 'home'  || $_GET['page'] == null){ echo "<div id=\"main\">";}
+        if($_GET['page'] != 'home'  && $_GET['page'] != 'test' || $_GET['page'] == null){ echo "<div id=\"main\">";}
         ?>
 
             <?php
