@@ -15,7 +15,12 @@ echo "<div>";
    $id=printExercise($questions,$answers,$orderq,$ordera,$value);
    $id++;
  
-   echo "<a href='index.php?page=test&id=$id' class='button big'>Weiter zu Frage $id</a>";
+
+  echo"<p id='check'></p>";
+
+  
+
+   echo "<button type='button' onclick='check()'><a href='index.php?page=test&id=$id' class='button big'>Weiter zu Frage $id</a></button>";
   ?>
       
 </div>

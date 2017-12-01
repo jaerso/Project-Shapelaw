@@ -74,16 +74,20 @@ function printExercise($q,$a,$orderq,$ordera,$value){
     $order=$orderq[$id];
     echo "<h2>$q[$order]</h2><br>";
     $j=0;
-    echo "<form action='Auswertung.inc.php' method='POST'>";
+    //echo "<form action='Auswertung.inc.php' method='POST'>";
+    echo"<form>";
     for($i=0;$i<sizeof($ordera);$i++,$j++){
           $o=$ordera[$j];
           $print= $a[$order][$o];
           $v=$value[$order][$o];
-    echo "<p>$print</p> 
-    <input type='radio' id='$j' name='answers' value='$v'><br>";
+    echo "<div><p>$print</p> 
+    <input type='radio' id='$j' name='answers' value='$v'><br></div>";
     }
-    echo"<button type='submit' name='answerSubmit'>Auswahl bestätigen</button>";
+    //echo"<input type='hidden' name='loc' value='".$_GET['id']."'><br></div>
+  //echo"  <button type='submit' name='answerSubmit'>Auswahl bestätigen</button>";
+  echo"<script><input type='submit' onclick='return JSValidierung();' value='Senden'></script><br>";
 echo "</form>";
+
 $id++;
 return $id;
 }
