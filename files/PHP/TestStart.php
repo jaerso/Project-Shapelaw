@@ -12,6 +12,8 @@ $ordera=generateOrderAnswer()
 
 $_SESSION['orderq']=$orderq;
 $_SESSION['ordera']=$ordera;*/
+generateOrderAnswer();
+generateOrderQuestion();
 //Test.php?$orderq&$ordera;
 
 /*echo "<form action='Test.php' method='POST'>
