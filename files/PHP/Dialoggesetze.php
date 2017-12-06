@@ -1,9 +1,6 @@
 <div class="container">
 <div id="Dialoggestaltung">
 
-<?php
-echo "<p>ÜÖÄüäö</p>"
-    ?>
 <h1>Dialoggestaltung 1</h1>
 
 <hr>

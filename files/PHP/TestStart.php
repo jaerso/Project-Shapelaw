@@ -23,7 +23,7 @@ generateOrderQuestion();
 <button type='submit' name='submit'>Test starten!</button></a>";
 //<a href='index.php?page=test&id=1'>*/
 ?>
-<button class="btn btn-1 btn-1a" ><a href="./index.php?page=test&id=1"> Starte jetzt den Test!</a></button>
+<button class="btn btn-1" ><a href="./index.php?page=test&id=1"> Starte jetzt den Test!</a></button>
 <!--echo "<a href='../../index.php?page=test&id=1?'".$orderq."'&'".$ordera."'>Test starten!</a>";-->
 
 </form>
