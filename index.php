@@ -10,20 +10,7 @@
     <link rel="stylesheet" href="files/css/style.css"/>
 
     <title>(Prototyp) Shapelaw</title>
-    <script>
-    function check(){
-    
-        $('input[type=radio]').on('change',function(){
-    var answers=$('input[type=radio][name=answers]').val();
-    if(answers =='1'){
-        document.getElementById("check").innerHTML = "Ihre Antwort ist richtig!";
-       }
-       elseif(answer =='0'){
-        document.getElementById("check").innerHTML = "Ihre Antwort ist falsch!";
-       }    
-}
-
-    </script>
+    <script src="files/js/scripts.js"></script>
 </head>
 
 <body>
