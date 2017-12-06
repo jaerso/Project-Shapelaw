@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="files/css/style.css"/>
 
     <title>(Prototyp) Shapelaw</title>
+    <script src="files/js/scripts.js"></script>
 </head>
 
 <body>

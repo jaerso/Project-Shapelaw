@@ -15,10 +15,41 @@ echo "<div>";
     
     //generateOrder();
    $id=printExercise($questions,$answers,$orderq,$ordera,$value);
-   $id++;
+   //$id++;
  
-   echo "<a href='index.php?page=test&id=$id' class='button big'>Weiter zu Frage $id</a>";
+
+  echo"<p id='check'></p>";
+
+  
+
   ?>
+  <!-- <button type='submit' onclick='return checkAnswer()'>Auswahl bestätigen</button>
+  <script>
+      function checkAnswer() {
+    var x = document.forms["test"]["answers"].value;
+    if (x == "") {
+       document.getElementById("check").innerHTML = 'Bitte wählen sie einen Wert ein';
+         }
+    else if(x==1){
+        document.getElementById("check").innerHTML = 'Korrekte Antwort';
+    }
+    else{
+        document.getElementById("check").innerHTML = 'Falsche Antwort';
+        
+    }
+}
+</script>-->
+
+<script>
+      function evaluation() {
+    var x = document.forms["test"]["answers"].value;
+        
+}
+
+function goBack() {
+    window.history.back()
+}
+</script>
       
 </div>
 </div>
