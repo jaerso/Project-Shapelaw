@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -85,8 +86,10 @@
                     include_once "files/PHP/Test.php";
                 }
                 else{include_once "files/PHP/TestStart.php";}
-                
-            }
+                 }
+                 elseif($_GET['page'] =='testevaluation'){
+                    include_once "files/PHP/Evaluation.php";
+                }
             elseif($_GET['page'] =='about'){
                 include_once "files/PHP/UeberUns.php";
             }
