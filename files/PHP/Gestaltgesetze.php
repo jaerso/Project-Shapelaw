@@ -2,6 +2,16 @@
 
     <div id="Gestaltgesetze">
 
+    <h1>Gestaltgesetze</h1>
+
+    <blockquote class="blockquote">
+  <p class="mb-0">
+  Die Gestaltpsychologie ist eine Wahrnehmungslehre, die in den 20er bis 40er Jahren des letzten 
+  Jahrhunderts in Deutschland entstanden ist (ihre Wurzeln reichen zurück bis ins 19. Jahrhundert). 
+  Die Gestaltpsychologen interessierten sich vor allem dafür, wie wir komplexe Szenerien oder Reize wahrnehmen.
+  </p>
+</blockquote>
+
         <h1> Gesetz der Ähnlichkeit / Gleichheit </h1>
 
         <hr>
@@ -13,7 +23,7 @@
         Quadrat, Dreieck etc. problemlos gruppieren. </p>
 
         
-        <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit.jpg" >
+        <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit.jpg" alt="Bild">
         
         <br>
 
