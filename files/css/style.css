@@ -23,6 +23,8 @@ img {
     color:rgb(255, 255, 255);
     font-weight:bold;
     font-size: 1em;
+    line-height: 56px;
+    display: block;
 }
 
 #header nav a:hover,
@@ -34,40 +36,46 @@ background-color: #3F51B5;
 	background-color: transparent !important;
 }
 
+.navbar-brand {
+    position: relative;
+}
+
+
 .navbar-light {
     height: 56px;
     background: #303F9F;
     position: fixed;
-    z-index: 99999;
     transition: all ease .5s;
-    padding-left: 10% !important;
-    padding-right: 10% !important;
+    padding: 0 10% 0 10% !important;
 
     -webkit-box-shadow: 0px 5px 20px 5px rgba(0,0,0,0.25);
     -moz-box-shadow: 0px 5px 20px 5px rgba(0,0,0,0.25);
     box-shadow: 0px 5px 20px 5px rgba(0,0,0,0.25);
 }
 
+ @media only screen and (max-width: 991px) {
+	.navbar-collapse {
+		background-color: #303F9F;
+        text-align: center;
+        font-size: 1.3em;
+        
+     } 
+     .navbar-light {
+        height: auto !important;
+            
+         } 
+/* center brand **WIP**
+         .navbar-brand{
+            text-align: center;
+            margin; auto;
+         } 
+         */
 
-@media only screen and (max-width: 768px) {
-	.navbar-light .navbar-collapse {
-		border-color: white;
-		background-color: white;
-		margin-top: 2px;
-		
-
-	 } 
+         .navbar-nav a {
+            margin: 0.8em 0 0.8em 0 !important;
+         }
  }
 
- @media only screen and (max-width: 768px) {
-	.navbar-light .navbar-collapse nav.shrink {
-		border-color: rgba(255, 255, 255, 0);
-		background-color: white;
-		margin-top: 2px;
-		
-
-	 } 
- }
 
 .custom-toggler.navbar-toggler {
     border-color: #FFFFFF;
@@ -75,7 +83,10 @@ background-color: #3F51B5;
 
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
 }
+
+
 
 /* Navigation ENDE */
 
@@ -198,7 +209,7 @@ text-align: center;
 
     .home-center h2 {
         color: rgb(255, 255, 255);
-        font-size: 2em;
+        font-size: 4em;
         }
 
 
