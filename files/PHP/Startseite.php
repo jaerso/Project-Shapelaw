@@ -5,11 +5,11 @@
 
     <div class="row">
     <div class="col-lg-6 col-xs-12">
-          <a href="index.php?page=appearance" class="btn btn-1" style="margin-left: 0px;"> Gestaltgesetze</a></button>
+          <a href="index.php?page=appearance" class="btn btn-1"> Gestaltgesetze</a>
           </div>
     
           <div class="col-lg-6 col-xs-12">
-          <a href="index.php?page=dialog" class="btn btn-1" style="margin-left: 0px;"> Dialoggestaltung</a></button>
+          <a href="index.php?page=dialog" class="btn btn-1"> Dialoggestaltung</a>
           </div>
           </div>
     

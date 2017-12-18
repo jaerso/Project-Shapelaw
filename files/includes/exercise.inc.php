@@ -94,21 +94,21 @@ function printExercise($q,$a,$difficulty,$ordera,$value){
           $o=$ordera[$j];
           $print= $a[$order][$o];
           $v=$value[$order][$o];
-    echo "<div><input type='radio' name='answersgroup' value='$v'> $print</div><br>";
+    echo "<div><label><input type='radio' name='answersgroup' value='$v' required> $print</label></div><br>";
          }
     echo"<input type='hidden' name='loc' value='".$_GET['id']."'>";
    
  // echo"  <button type='submit' onsubmit='return checkAnswer()'>Auswahl bestätigen</button>";
         if($id!=0){
-                 echo"<button type='submit' name='backSubmit'>zurück zu Frage ".$id."</button>";
+                 echo"<button type='submit' name='backSubmit' class='btn btn-3'>zurück zu Frage ".$id."</button>";
         }
        
         $id+=2;
  if($id<=$g){
-         echo"<button type='submit' name='answerSubmit'>Weiter zu Frage $id</button>";
+         echo"<button type='submit' name='answerSubmit' class='btn btn-4'>Weiter zu Frage $id</button>";
  }
 else{
-        echo"<button type='submit' name='endSubmit'>Test beenden</button>";    
+        echo"<button type='submit' name='endSubmit' class='btn btn-5'>Test beenden</button>";    
 }
  echo "</form>";
 return $id;

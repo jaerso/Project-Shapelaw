@@ -1,6 +1,7 @@
 <div id="main">
-<div class="container">
+
 <?php
+echo "<div class='container'>";
 session_start();
 include_once 'files/includes/exercise.inc.php';
 include_once 'files/includes/db.inc.php';
@@ -13,6 +14,9 @@ echo "<div>";
    printExercise($questions,$answers,$difficulty,$ordera,$value);
    generateOrderAnswer();
 // echo"<p id='check'></p>";
+
+echo "</div>";
+echo "</div>";
 ?>
   <!-- <button type='submit' onclick='return checkAnswer()'>Auswahl bestätigen</button>
   <script>
@@ -31,6 +35,4 @@ echo "<div>";
 }
 </script>-->
       
-</div>
-</div>
 </div>
