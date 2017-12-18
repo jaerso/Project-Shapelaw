@@ -31,28 +31,32 @@
                         <div class="col-sm-4">
                             <div id='divBorder' style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=1">
-                                    <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn1.jpg" alt="Bildbeschreibung Platzhalter">
+                                    <h1 style="text-align: center; margin-bottom: 1em !important;"> Gesetz der Ähnlichkeit</h1>
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn1.jpg" alt="Gesetz der Ähnlichkeit / Gleichheit"> -->
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div id='divBorder' style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=2">
-                                    <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn2.jpg" alt="Bildbeschreibung Platzhalter">
+                                    <h1 style="text-align: center; margin-bottom: 1em !important;"> Gesetz der <br>Nähe</h1>
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn2.jpg" alt="Bildbeschreibung Platzhalter"> -->
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div id='divBorder' style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=3">
-                                    <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn3.jpg" alt="Bildbeschreibung Platzhalter">
+                                    <h1 style="text-align: center; margin-bottom: 1em !important;"> Gesetz der guten Fortsetzung</h1>
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn3.jpg" alt="Bildbeschreibung Platzhalter"> -->
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div id='divBorder' style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=4">
-                                    <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn4.jpg" alt="Bildbeschreibung Platzhalter">
+                                    <h1 style="text-align: center; margin-bottom: 1em !important;"> Gesetz der Schließung</h1>
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn4.jpg" alt="Bildbeschreibung Platzhalter"> -->
                                 </a>
                             </div>
                         </div>
@@ -60,14 +64,16 @@
                         <div class="col-sm-4">
                             <div id='divBorder' style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=5">
-                                    <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn5.jpg" alt="Bildbeschreibung Platzhalter">
+                                    <h1 style="text-align: center; margin-bottom: 1em !important;"> Gesetz der Symmetrie</h1>
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn5.jpg" alt="Bildbeschreibung Platzhalter"> -->
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div id='divBorder' style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=6">
-                                    <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn6.jpg" alt="Bildbeschreibung Platzhalter">
+                                    <h1 style="text-align: center; margin-bottom: 1em !important;"> Gesetz der guten Gestalt</h1>
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn6.jpg" alt="Bildbeschreibung Platzhalter"> -->
                                 </a>
                             </div>
                         </div>

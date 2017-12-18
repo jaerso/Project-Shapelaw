@@ -25,14 +25,14 @@
                             Quadrat, Dreieck etc. problemlos gruppieren. </p>
 
                             
-                            <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit.jpg" alt="Bild">
+                            <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit1.jpg" alt="Bild zur Verdeutlichung des oberen Textes">
                             
                             <br>
 
                             <p>Angewendet wird es zum Gesetz der Gleichheit. Hierbei wird z.B. bei Formularen in Computeranwendungen die gleiche Sorte von Eingabefeldern benutzt. 
                             So erkennt der Nutzer sofort, dass alle Rechtecke Eingabefelder sind. </p>
 
-                            <img src="">
+                            <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit2.jpg" alt="Bild zur Verdeutlichung des oberen Textes">
 
                             <br>
 
@@ -40,7 +40,7 @@
                             Dadurch weiß der Nutzer, es handelt sich immer noch um Eingabefelder, die jedoch zu einer anderen Gruppe gehören als die weißen Felder. </p>
                             
 
-                            <img src="">
+                            <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit3.jpg" alt="Bild zur Verdeutlichung des oberen Textes">
 
                             <p>Gleiches gilt für Buttons auf Webseiten. Durch ihre ähnliche Form und evtl. auch farbliche Absetzung fasst der Nutzer diese Buttons einer funktionalen Gruppe zusammen. </p>
 
@@ -63,38 +63,77 @@
 
                     <div id="Gestaltgesetze">
 
-                            <h1> Gesetz der Ähnlichkeit / Gleichheit </h1>
+                        <h1>Gesetz der Nähe</h1>
 
-                            <hr>
+                        <hr>
 
-                            <p>Elemente, welche einander gleichen, nehmen wir als zusammengehörig wahr. 
-                            Dabei vergleichen wir die optischen Reize bei verschiedenfarbigen Elementen,
-                            unterscheiden zwischen Helligkeiten, Größe der Elemente oder ihrer Orientierung aber auch ihrer Form. 
-                            So erkennen Menschen in kürzester Zeit verschiedene Formen in einer Ansammlung an bekannten geometrischen Figuren und können diese im Kopf nach Kreis,
-                            Quadrat, Dreieck etc. problemlos gruppieren. </p>
+                        <p>Elemente die sich in Form, Größe und Farbe unterscheiden werden mit dem Gesetz der Nähe 
+                        durch ihre unmittelbare Nähe zueinander als zusammengehörig wahrgenommen. 
+                        So werden Kommazahlen durch die Nähe der Zahlen und dem Komma zu einer Kommazahl gruppiert und nicht zu zwei Zahlen, 
+                        die durch ein Komma getrennt werden.</p>
 
-                            
-                            <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit.jpg" alt="Bild">
-                            
-                            <br>
+                        <p>[Beispiel: 1,2 3,4 5,6]	
+                        Hier werden die Zahlen [1,2] [3,4] und [5,6] als drei Kommazahlen erkannt, 
+                        da die Zahlen und das Komma nahe bei einander liegen. 
+                        Die größere Entfernung zwischen der 2 und der 3 löst eine zweite Gruppierung aus, 
+                        die mit der ersten nichts mehr zu tun hat. Werden die Zeichen alle gleich nah zusammengestellt, 
+                        gruppiert der Mensch nur die Nähe der Zahlen und Trennt sie mit dem Komma. 
+                        So werden keine Kommazahlen mehr erkannt, sondern ganze Zahlen, welche durch Kommata getrennt werden. 
+                        [Beispiel 2: 1,23,45,6]. 
+                        Das bekannteste Beispiel für die Anwendung des Gesetzes der Nähe findet sich in der Websuche. 
+                        Wird eine Websuche durchgeführt, erhält man die Ergebnisse mit einer Überschrift, einem Link 
+                        und Beschreibungstexten zu den Inhalten der Seite und erkennt diese Elemente durch die nahe Anordnung 
+                        zueinander als zusammengehörig.</p>
 
-                            <p>Angewendet wird es zum Gesetz der Gleichheit. Hierbei wird z.B. bei Formularen in Computeranwendungen die gleiche Sorte von Eingabefeldern benutzt. 
-                            So erkennt der Nutzer sofort, dass alle Rechtecke Eingabefelder sind. </p>
+                        <img class = "content-img" src="files\img\GesetzDerNähe.jpg" alt="Beispiel zum Gesetz der Nähe">
 
-                            <img src="">
+                        <p>Durch die Entfernung zwischen Elementen kann auch eine Abgrenzung statt einer Gruppierung hervorgerufen werden. 
+                        Ein gängiges Beispiel hierfür wäre ein Formular, bei dem die Beschreibung, welche Angaben in ein Eingabefeld gehören, 
+                        von dem Eingabefeld selbst getrennt wird. </p>
 
-                            <br>
+                        <img class = "content-img"> src="files\img\GesetzDerNähe2" alt="Kontaktformular, gegliedert in zwei Bereiche"
 
-                            <p>Soll innerhalb der gleichen Formen ein Unterschied bei den Eingabefeldern dargestellt werden, so kann das mit dem Aspekt der Farbe erreicht werden. 
-                            Dadurch weiß der Nutzer, es handelt sich immer noch um Eingabefelder, die jedoch zu einer anderen Gruppe gehören als die weißen Felder. </p>
-                            
+                    </div>
 
-                            <img src="">
+                </div>
 
-                            <p>Gleiches gilt für Buttons auf Webseiten. Durch ihre ähnliche Form und evtl. auch farbliche Absetzung fasst der Nutzer diese Buttons einer funktionalen Gruppe zusammen. </p>
+            ]]></content>
 
-                            <p>Das Gesetz der Ähnlichkeit wird verstärkt durch das Gesetz der Nähe.</p>
-                            <br>
+        </gesetz>
+        
+        <gesetz id="3" path="3" lang="de">
+            
+            <content><![CDATA[
+
+                <div class="container">
+
+                    <div id="Gestaltgesetze">
+
+                        <h1>Gesetz der guten Fortsetzung</h1>
+
+                        <hr>
+
+                        <p>Das Menschliche Auge setzt instinktiv Wege fort, sobald ein Richtungsimpuls vorgegeben wird. 
+                        Dies nennt man das Gesetz der Fortsetzung bzw. der Kontinuität. Dabei achtet man auf weiche Kanten 
+                        und fließende Übergänge der Elemente. Abrupte Richtungswechsel oder Winkel stören die Wegfortsetzung des Auges. 
+                        So erkennt man miteinander Verbundene Elemente schneller, wenn diese mit weichen kurvigen Linien (a) 
+                        verbunden sind statt mit harten Linien, die verwinkelt sind (b).</p>
+
+                        <img class = "content-img" src="files\img\GesetzDerGutenFortsetzung1.jpg" alt="Beispiel zu (a) und (b)">
+
+                        <p>In der Praxis findet man das Gesetz der guten Fortsetzung vor allem in einer Webseitennavigation.
+                        In diesem Beispiel folgt die Anordnung der Navigationspunkte keiner bestimmten Richtung. 
+                        Auf den ersten Blick ist es schwerer zu erkennen, dass es sich um eine Navigation handelt, 
+                        das Gesetz der guten Fortsetzung wird hier nicht erfüllt.</p>
+
+                        <img class = "content-img" src="files\img\GesetzDerGutenFortsetzung2.jpg" alt="unstrukturierte Navigation">
+
+                        <p>Durch die senkrechte Fluchtlinie im zweiten Beispiel wird ein optischer Zusammenhang erzeugt. 
+                        Das Auge folgt automatisch den Punkten nach unten und der Nutzer erkennt die Navigation 
+                        in diesem Abschnitt der Webseite.</p>
+
+                        <img class = "content-img" src="files\img\GesetzDerGutenFortsetzung3.jpg" alt="gut strukturierte Navigation">
+                        
                     </div>
 
                 </div>
@@ -103,7 +142,92 @@
 
         </gesetz>
 
-        <!-- Dialoggestaltung -->
+        <gesetz id="4" path="4" lang="de">
+            
+            <content><![CDATA[
+
+                <div class="container">
+
+                    <div id="Gestaltgesetze">
+
+                        <h1>Gesetz der Schließung</h1>
+
+                        <hr>
+
+                        <p>Nahezu geschlossene Konturen werden vom Menschen automatisch geschlossen. 
+                        Dieses Gesetzt hat etwas Ähnlichkeit zum Gesetz der guten Fortsetzung, bei dem das menschliche Auge einer Linienführung folgt 
+                        und das Gehirn hierbei zur Vollendung der Figur ergänzt. </p>
+
+                        <p>Beispiele für das Gesetz der Schließung: </p>
+
+                        <img class = "content-img" src="files\img\GesetzDerSchließung1.jpg" alt="ein nahezu geschlossener Kreis und ein nahezu geschlossenes Quadrat">
+
+                        <img class = "content-img" src="files\img\GesetzDerSchließung2.jpg" alt="Bild eines Pandas, die Weißen Flächen sind geöffnet zum Hintergrund, werden aber als Teil des Pandas wahrgenommen.">
+                        
+                    </div>
+
+                </div>
+
+            ]]></content>
+
+        </gesetz>
+
+        <gesetz id="5" path="5" lang="de">
+            
+            <content><![CDATA[
+
+                <div class="container">
+
+                    <div id="Gestaltgesetze">
+
+                        <h1>Gesetz der Symmetrie</h1>
+
+                        <hr>
+
+                        <p>Das Gesetz der Symmetrie besagt, dass symmetrische Anordnungen die Aufmerksamkeit des Betrachters auf sich ziehen.
+                         Symmetrie unterstützt die klare Gliederung von Inhalten. Webseiten, die Symmetrisch aufgebaut sind, 
+                         lenken den User nicht von seinem Ziel ab, welches er auf der Seite erreichen möchte.  </p>
+
+                        <p>Bei symmetrischen Konturen werden die Zwischenräume zur Figur angesehen, während die Zwischenräume
+                         von asymmetrischen Konturen zum Hintergrund zählen.  </p>
+
+                        <img class = "content-img" src="files\img\GesetzDerSymmetrie.jpg" alt="Beispiel: symmetrische und asymmetrische Konturen">
+                    </div>
+
+                </div>
+
+            ]]></content>
+
+        </gesetz>
+
+        <gesetz id="6" path="6" lang="de">
+            
+            <content><![CDATA[
+
+                <div class="container">
+
+                    <div id="Gestaltgesetze">
+
+                        <h1>Gesetz der guten Gestalt</h1>
+
+                        <hr>
+
+                        <p>Die menschliche Wahrnehmung bildet automatisch Gruppen, wenn sie Sinneseindrücke in die Kategorie der Figuren einordnen kann. 
+                        Aus diesem Grund ist es sinnvoll Bedienelemente, die zu einer Aufgabe gehören, gruppiert in einem Fenster anzuordnen.   </p>
+
+                        <p>Durch die Wahrnehmung von Figuren können auch Vexierbilder entstehen. Ein bekanntes negatives Beispiel eines Vexierbildes 
+                        sind grafische Statistiken. Hier kann es schnell zu Missverständnissen kommen und der Leser der Grafik kann, 
+                        wenn beim Erstellen nicht darauf geachtet wurde, falsche Ergebnisse wahrnehmen (siehe Beispielbild).  </p>
+
+                        <img class = "content-img" src="files\img\GesetzDerGutenGestalt.jpg" alt="Beispiel für ein Vexierbild bei Temperaturangeben">
+
+                    </div>
+
+                </div>
+
+            ]]></content>
+
+        </gesetz>
 
     </gesetze>
 
