@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<?php include_once('./files/PHP/Frontendhandler.php'); ?>
+
 <html lang="de">
 <head>
     <meta charset="UTF-8">
@@ -56,8 +59,6 @@
           </nav>
 
     </header>
-
-    
 
     <?php 
         if(!isset($_GET['page'])){
