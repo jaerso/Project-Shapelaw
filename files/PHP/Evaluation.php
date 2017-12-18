@@ -5,7 +5,8 @@ include_once 'files/includes/evaluation.inc.php';
 
 
 $result=Endergebnis();
-
+session_unset();
+session_destroy();
 ?>
 <!--<script>
 var result=<?php //echo "$result";
