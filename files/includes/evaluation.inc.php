@@ -13,6 +13,14 @@ $loc+=2;
 header("Location: ../../index.php?page=test&id=$loc");
 exit();
 }
+elseif(isset($_POST['backSubmit'])){
+    $v=$_POST['answersgroup'];
+    $loc=$_POST['loc'];
+    $loc-=1;
+    
+header("Location: ../../index.php?page=test&id=$loc");
+exit();
+}
 elseif(isset($_POST['endSubmit'])){
     $v=$_POST['answersgroup'];
     $loc=$_POST['loc'];
