@@ -1,15 +1,18 @@
 <section id="start">
 <div class="home-center">
     <h1>WILLKOMMEN</h1>
-    <h2>auf der Prototyp-Seite von <strong>Shapelaw</strong></h2>
+    <h2>auf <strong>Shapelaw</strong></h2>
 
+    <div class="row">
     <div class="col-lg-6 col-xs-12">
-      <button class="btn btn-1" ><a href="files/PHP/Gestaltgesetze.php"> Gestaltgesetze</a></button>
-      </div>
-
-      <div class="col-lg-6 col-xs-12">
-      <button class="btn btn-1" ><a href="files/PHP/Dialoggesetze.php"> Dialoggestaltung</a></button>
-      </div>
+          <a href="index.php?page=appearance" class="btn btn-1" style="margin-left: 0px;"> Gestaltgesetze</a></button>
+          </div>
+    
+          <div class="col-lg-6 col-xs-12">
+          <a href="index.php?page=dialog" class="btn btn-1" style="margin-left: 0px;"> Dialoggestaltung</a></button>
+          </div>
+          </div>
+    
   </div>
 
     <a href="#about">

@@ -20,12 +20,16 @@ INSERT INTO answers (ans, q_id, value) VALUES ('acht',1,1);
 INSERT INTO answers (ans, q_id, value) VALUES ('sechs',1,0);
 INSERT INTO answers (ans, q_id, value) VALUES ('zehn',1,0);
 
+
+
 INSERT INTO questions (q) VALUES ('Welche Regel der Dialoggestaltung besagt, dass verwandte Funktionen Systemuebergreifend immer vorhanden, gleich heissen und gleich funktionieren sollten?');
 
 INSERT INTO answers (ans, q_id, value) VALUES ('Benutzerkontrolle',2,0);
 INSERT INTO answers (ans, q_id, value) VALUES ('Abkuerzungen fuer erfahrene Benutzer bereitstellen',2,0);
 INSERT INTO answers (ans, q_id, value) VALUES ('Konsistenz anstreben',2,1);
 INSERT INTO answers (ans, q_id, value) VALUES ('Kurzzeitgedaechtnis entlasten',2,0);
+
+
 
 INSERT INTO questions (q) VALUES ('An welche User richtet sich die goldene Dialogregel der Abkuerzungen (Shortcuts)?');
 
@@ -34,9 +38,123 @@ INSERT INTO answers (ans, q_id, value) VALUES ('An erfahrene User',3,1);
 INSERT INTO answers (ans, q_id, value) VALUES ('An benachteiligte User',3,0);
 INSERT INTO answers (ans, q_id, value) VALUES ('An Kinder bis 13 Jahre',3,0);
 
+
+
 INSERT INTO questions (q) VALUES ('Was versteht man unter informativem Feedback?');
 
 INSERT INTO answers (ans, q_id, value) VALUES ('Verwandte Funktionen wie Loeschen oder Weiter sollten Systemuebergreifend immer gleich heißen ',4,0);
 INSERT INTO answers (ans, q_id, value) VALUES ('Auf jede Systemeingabe des Benutzers solle eine Systemrueckmeldung erfolgen, die den derzeitigen Status verstaendlich erlaeutert',4,1);
 INSERT INTO answers (ans, q_id, value) VALUES ('Das System sollte dem Benutzer das Gefuehl des Eingebers und nicht das des Antwortenden vermitteln',4,0);
 INSERT INTO answers (ans, q_id, value) VALUES ('Der Webseitenersteller gibt persoenliches Feedback zu beantworteten Fragen und Formularen',4,0);
+
+
+
+INSERT INTO questions (q) VALUES ('Welchem Grundprinzip folgt das Gesetz der Nähe?');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Elemente gleicher Größe, Form und Farbe werden als zusammengehörig wahrgenomen',5,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Die Inhalte sollten möglichst realitätsnah bleiben',5,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Elemente unterschiedlicher Größe, Form und Farbe werden als zusammengehörig wahrgenommen',5,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Es dürfen keine Elemente unmittelbar in der Nähe anderer Elemente angeordnet sein',5,0);
+
+
+
+
+INSERT INTO questions (q) VALUES ('Durch welches Gesetz lesen wir die Zeichenfolge "1,2 3,4 5,6" als drei verschiedene Kommazahlen?');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Gesetz der Nähe',6,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Gesetz der guten Gestalt',6,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Gesetz der Ähnlichkeit',6,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Zahlenformatierungsgesetz nach DIN 1337',6,0);
+
+
+
+
+INSERT INTO questions (q) VALUES ('Unter dem Gesetz der Ähnlichkeit / Gleichheit versteht man, dass ...');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Elemente, welche einander gleichen, als zusammengehörig wahrgenomen werden',7,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('alle Menschen vor dem Gesetz gleich sind',7,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('es vermieden werden sollte, gleiche Elemente auf einer Seite zu nutzen',7,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('die meisten Gestaltgesetze sich ähneln',7,0);
+
+
+
+
+INSERT INTO questions (q) VALUES ('Das menschliche Auge setzt instinktiv Wege fort. Dabei spielen die Kurven von sich kreuzenden Linien eine u.U. eine Rolle. Welche?');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Es ist leichter weichen Kurven zu folgen',8,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Es ist leichter harten Kurven zu folgen',8,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Kurven sind einfacher wahrzunehmen als gerade Linien',8,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Kurven sollten möglichst vermieden und durch Winkel ersetzt werden',8,0);
+
+
+
+
+INSERT INTO questions (q) VALUES ('Ein Kreis ist unvollständig, es fehlt ein kleiner Teil davon. Welches Gesetz beschreibt das automatische Vervollständigen von Figuren des menschlichen Auges?');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Gesetz der Schließung',9,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Gesetz der guten Figur',9,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Gesetz der Fortsetzung',9,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Gesetz der Ähnlichkeit',9,0);
+
+
+
+INSERT INTO questions (q) VALUES ('Eines der grundlegenden Ziele der Dialoggestaltung ist...?');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Die Entlastung des Kurzzeitgedächtnisses',10,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Angenehme Dialoge zu erstellen',10,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Die technischen Möglichkeiten einer Entwicklungsumgebung auszunutzen',10,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Die Interaktionsmöglichkeiten mit einem System möglichst gering zu halten',10,0);
+
+
+
+INSERT INTO questions (q) VALUES ('Warum sollte man bei Statistiken auf das entstehen von Vexierbildern achten und diese vermeiden?');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Da sonst die Grafik falsch gelesen und missinterpretiert werden könnte',11,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Weil Vexierbilder das menschliche Auge stören',11,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Weil Screenreader sonst nicht wissen, welchen Teil der Statistik sie vorlesen sollen',11,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Sonst werden die Statistiken verfälscht und unbrauchbar gemacht ',11,0);
+
+
+
+INSERT INTO questions (q) VALUES ('Welches Gestaltungsgesetz besagt, dass die menschliche Wahrnehmung Gruppen bildet, wenn sie Sinneseindrücke in Figuren einordnen kann?');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Gesetz der guten Gestalt',12,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Gesetz der Gleichheit',12,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Gesetz der Gruppierung',12,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Gesetz der guten Fortsetzung',12,0);
+
+
+
+INSERT INTO questions (q) VALUES ('Wo findet sich im wirtschaftlichen Bereich immer öfters das Gesetz der Schließung wieder?');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('In Firmenlogos',13,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Bei den Öffnungszeiten von Geschäften',13,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('In Statistiken von Banken',13,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Auf Volltext-Nachrichtenseiten',13,0);
+
+
+
+INSERT INTO questions (q) VALUES ('Wie kann man laut Gesetz der guten Fortsetzung Navigations und andere Webseitenelemente übersichtlicher darstellen?');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Mit Fluchtlinien',14,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Mit möglichst vielen unterschiedlichen Elementen',14,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Durch kontrastreiche Farbgebung',14,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Mit gezeichneten Linien',14,0);
+
+
+
+INSERT INTO questions (q) VALUES ('Mit dem Tastenkürzel STRG+Z wird welche Dialogregel in den meisten fällen durchgeführt? ');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Möglichkeit der Stornierung',15,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Informatives Feedback',15,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Einfache Fehlerbehandlung',15,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Konsistenzregel',15,0);
+
+
+
+INSERT INTO questions (q) VALUES ('Der Anwender eines Systems braucht das gefühl des "Eingebers" statt "Antwortenden". Welche Dialogestaltungsregel greift hier?');
+
+INSERT INTO answers (ans, q_id, value) VALUES ('Benutzerkontrolle',16,1);
+INSERT INTO answers (ans, q_id, value) VALUES ('Kurzzeitgedächtnis entlasten',16,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Informatives Feedback',16,0);
+INSERT INTO answers (ans, q_id, value) VALUES ('Konsistenz anstreben',16,0);

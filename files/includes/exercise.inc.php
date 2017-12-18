@@ -3,9 +3,6 @@
 
 function generateQuestions($conn){
 $questions = array();
-/*$answers= array();*/
-
-
 $sql= "SELECT * FROM questions";
 $result = mysqli_query($conn, $sql);
 while($row = mysqli_fetch_assoc($result)){ 
@@ -57,11 +54,25 @@ function generateAnswers($conn){
         return $rightans;
         }
 
-   function generateOrderQuestion(){
-        $orderq=array(0,1,2,3);
-        shuffle($orderq);
-        $_SESSION['orderq']=$orderq;
+   function generateOrderQuestion($conn){
+        $sql= "SELECT COUNT(q_id) AS amount FROM questions";
+        $result = mysqli_query($conn, $sql);
+        while($row = mysqli_fetch_assoc($result)){ 
+         $amountq=$row['amount'];
     }
+    $amountq-=1;
+    $orderq = range(0,$amountq);
+    shuffle($orderq);
+    //$_SESSION['orderq']=$number;
+       // $orderq=array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15);
+       // shuffle($orderq);
+        $_SESSION['orderq']=$orderq;
+
+        /*$orderq=array(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15);
+        shuffle($orderq);
+        $_SESSION['orderq']=$orderq;*/
+    }
+
     function generateOrderAnswer(){
         $ordera=array(0,1,2,3);
         shuffle($ordera);
@@ -78,25 +89,26 @@ function printExercise($q,$a,$orderq,$ordera,$value){
     $answers='';
     
     //echo "<form action='Auswertung.inc.php' method='POST'>";
-    echo"<form action='evaluation.inc.php' name='test' method='post'>";
+    echo"<form action='files/includes/evaluation.inc.php' method='post'>";
     for($i=0;$i<sizeof($ordera);$i++,$j++){
           $o=$ordera[$j];
           $print= $a[$order][$o];
           $v=$value[$order][$o];
-    echo "<div><input type='radio' name='answers' value='$v'> $print</div><br>";
-        echo"<input type='hidden' name='loc' value='".$_GET['id']."'>";
-    }
+    echo "<div><label><input type='radio' name='answersgroup' value='$v' required> $print</label></div><br>";
+         }
+    echo"<input type='hidden' name='loc' value='".$_GET['id']."'>";
    
  // echo"  <button type='submit' onsubmit='return checkAnswer()'>Auswahl bestätigen</button>";
- $id+=2;
- //echo"<button type='button' name='submit'><a href='index.php?page=test&id='".$id--."' >zurück zu Frage '".$id--."'</a></button>";
- print_r($g);
- print_r($id);
+        if($id!=0){
+                 echo"<button type='submit' name='backSubmit'>zurück zu Frage ".$id."</button>";
+        }
+       
+        $id+=2;
  if($id<=$g){
-         echo"<button type='button' name='answerSubmit'>Weiter zu Frage $id</button>";
-}
+         echo"<button type='submit' name='answerSubmit'>Weiter zu Frage $id</button>";
+ }
 else{
-        echo"<button type='button' name='endSubmit'><a href='index.php?page=test&id=$id' >Weiter zu Frage $id</a></button>";    
+        echo"<button type='submit' name='endSubmit'>Test beenden</button>";    
 }
  
 echo "</form>";

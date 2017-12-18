@@ -10,19 +10,10 @@ $value=rightAnswers($conn);
 $orderq=$_SESSION['orderq'];
 $ordera=$_SESSION['ordera'];
 
-
 echo "<div>";
-    
-    //generateOrder();
    $id=printExercise($questions,$answers,$orderq,$ordera,$value);
-   //$id++;
- 
-
-  echo"<p id='check'></p>";
-
-  
-
-  ?>
+// echo"<p id='check'></p>";
+?>
   <!-- <button type='submit' onclick='return checkAnswer()'>Auswahl bestätigen</button>
   <script>
       function checkAnswer() {
@@ -39,17 +30,6 @@ echo "<div>";
     }
 }
 </script>-->
-
-<script>
-      function evaluation() {
-    var x = document.forms["test"]["answers"].value;
-        
-}
-
-function goBack() {
-    window.history.back()
-}
-</script>
       
 </div>
 </div>
