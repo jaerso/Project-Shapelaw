@@ -1,6 +1,7 @@
 <section id="teststart">
 <div class="test-center">
 <?php
+session_start();
 include_once 'files/includes/exercise.inc.php';
 include_once 'files/includes/db.inc.php';
 ?>

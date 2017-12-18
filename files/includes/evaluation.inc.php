@@ -34,6 +34,7 @@ function Endergebnis(){
     }
     $ges=$size;
     $prozwert=$pkt;
-    return $pkt/$ges*100;
+    $result= $pkt/$ges*100;
+    return round($result);
 }
 ?>
