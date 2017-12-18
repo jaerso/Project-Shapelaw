@@ -86,10 +86,15 @@
                 if(isset($_GET['id'])){
                     include_once "files/PHP/Test.php";
                 }
-                else{include_once "files/PHP/TestStart.php";}
+                elseif(isset($_GET['difficulty'])){
+                    include_once "files/PHP/Difficulty.php";
+                }
+                else{
+                    include_once "files/PHP/TestStart.php";
+                }
                  }
-                 elseif($_GET['page'] =='testevaluation'){
-                    include_once "files/PHP/Evaluation.php";
+            elseif($_GET['page'] =='testevaluation'){
+                include_once "files/PHP/Evaluation.php";
                 }
             ?>
 
