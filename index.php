@@ -9,14 +9,15 @@
     <link rel="stylesheet" href="files/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="files/css/style.css"/>
 
-    <title>(Prototyp) Shapelaw</title>
+    <title>Shapelaw</title>
     <script src="files/js/scripts.js"></script>
 </head>
 
 <body>
     <header id="header">
-        <nav class="navbar navbar-toggleable-xs navbar-expand-lg navbar-light bg-faded fixed-top">
-            <a class="navbar-brand" href="index.php?page=home">(Prototyp) Shapelaw</a>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-faded">
+       
+            <a class="navbar-brand" href="index.php?page=home">Shapelaw</a>
           <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -85,8 +86,10 @@
                     include_once "files/PHP/Test.php";
                 }
                 else{include_once "files/PHP/TestStart.php";}
-                
-            }
+                 }
+                 elseif($_GET['page'] =='testevaluation'){
+                    include_once "files/PHP/Evaluation.php";
+                }
             elseif($_GET['page'] =='about'){
                 include_once "files/PHP/UeberUns.php";
             }
