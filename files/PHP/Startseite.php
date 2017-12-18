@@ -1,7 +1,7 @@
 <section id="start">
 <div class="home-center">
     <h1>WILLKOMMEN</h1>
-    <h2>auf der Prototyp-Seite von <strong>Shapelaw</strong></h2>
+    <h2>auf <strong>Shapelaw</strong></h2>
 
     <div class="row">
     <div class="col-lg-6 col-xs-12">
