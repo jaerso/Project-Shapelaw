@@ -68,7 +68,7 @@
         ?>
 
         <?php
-        if($_GET['page'] != 'home'  && $_GET['page'] != 'test' || $_GET['page'] == null){ echo "<div id=\"main\">";}
+        if($_GET['page'] != 'home'  && $_GET['page'] != 'test' && $_GET['page'] != 'testevaluation' || $_GET['page'] == null){ echo "<div id=\"main\">";}
         ?>
 
             <?php
@@ -90,9 +90,6 @@
                  elseif($_GET['page'] =='testevaluation'){
                     include_once "files/PHP/Evaluation.php";
                 }
-            elseif($_GET['page'] =='about'){
-                include_once "files/PHP/UeberUns.php";
-            }
             ?>
 
         <?php if($_GET['page']!='home'){echo "</div>";}
@@ -109,28 +106,17 @@
                         <hr id="hr-footer">
                     </div>
     
-            <section class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-xs-12">
+            <section class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-xs-12">
                 <h3>placeholder</h3>
                 <ul class="unstyled">
-                  <li><a href="#">placeholder</a></li>
                   <li><a href="#">placeholder</a></li>
                   <li><a href="#">placeholder</a></li>
                 </ul>
               </section>
     
-                                <section class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-xs-12">
+                                <section class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-xs-12">
                                     <h3>placeholder</h3>
                                     <ul class="unstyled">
-                                        <li><a href="#">placeholder</a></li>
-                                        <li><a href="#">placeholder</a></li>
-                                        <li><a href="#">placeholder</a></li>
-                                    </ul>
-                  </section>
-    
-                                <section class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-xs-12">
-                                    <h3>placeholder</h3>
-                                    <ul class="unstyled">
-                                        <li><a href="#">placeholder</a></li>
                                         <li><a href="#">placeholder</a></li>
                                         <li><a href="#">placeholder</a></li>
                                     </ul>
