@@ -32,7 +32,7 @@
                             <p>Angewendet wird es zum Gesetz der Gleichheit. Hierbei wird z.B. bei Formularen in Computeranwendungen die gleiche Sorte von Eingabefeldern benutzt. 
                             So erkennt der Nutzer sofort, dass alle Rechtecke Eingabefelder sind. </p>
 
-                            <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit2.jpg" alt="Bild zur Verdeutlichung des oberen Textes">
+                            <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit2.png" alt="Bild zur Verdeutlichung des oberen Textes">
 
                             <br>
 
@@ -40,9 +40,11 @@
                             Dadurch weiß der Nutzer, es handelt sich immer noch um Eingabefelder, die jedoch zu einer anderen Gruppe gehören als die weißen Felder. </p>
                             
 
-                            <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit3.jpg" alt="Bild zur Verdeutlichung des oberen Textes">
+                            <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit3.png" alt="Bild zur Verdeutlichung des oberen Textes">
 
                             <p>Gleiches gilt für Buttons auf Webseiten. Durch ihre ähnliche Form und evtl. auch farbliche Absetzung fasst der Nutzer diese Buttons einer funktionalen Gruppe zusammen. </p>
+
+                            <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit4.jpg" alt="Bild zur Verdeutlichung des oberen Textes">
 
                             <p>Das Gesetz der Ähnlichkeit wird verstärkt durch das Gesetz der Nähe.</p>
                             <br>
@@ -85,13 +87,13 @@
                         und Beschreibungstexten zu den Inhalten der Seite und erkennt diese Elemente durch die nahe Anordnung 
                         zueinander als zusammengehörig.</p>
 
-                        <img class = "content-img" src="files\img\GesetzDerNähe.jpg" alt="Beispiel zum Gesetz der Nähe">
+                        <img class = "content-img" src="files\img\GesetzDerNähe.png" alt="Beispiel zum Gesetz der Nähe">
 
                         <p>Durch die Entfernung zwischen Elementen kann auch eine Abgrenzung statt einer Gruppierung hervorgerufen werden. 
                         Ein gängiges Beispiel hierfür wäre ein Formular, bei dem die Beschreibung, welche Angaben in ein Eingabefeld gehören, 
                         von dem Eingabefeld selbst getrennt wird. </p>
 
-                        <img class = "content-img"> src="files\img\GesetzDerNähe2" alt="Kontaktformular, gegliedert in zwei Bereiche"
+                        <img class = "content-img" src="files\img\GesetzDerNähe2.jpg" alt="Kontaktformular, gegliedert in zwei Bereiche">
 
                     </div>
 
@@ -119,20 +121,20 @@
                         So erkennt man miteinander Verbundene Elemente schneller, wenn diese mit weichen kurvigen Linien (a) 
                         verbunden sind statt mit harten Linien, die verwinkelt sind (b).</p>
 
-                        <img class = "content-img" src="files\img\GesetzDerGutenFortsetzung1.jpg" alt="Beispiel zu (a) und (b)">
+                        <img class = "content-img" src="files\img\GesetzDerGutenFortsetzung1.gif" alt="Beispiel zu (a) und (b)">
 
                         <p>In der Praxis findet man das Gesetz der guten Fortsetzung vor allem in einer Webseitennavigation.
                         In diesem Beispiel folgt die Anordnung der Navigationspunkte keiner bestimmten Richtung. 
                         Auf den ersten Blick ist es schwerer zu erkennen, dass es sich um eine Navigation handelt, 
                         das Gesetz der guten Fortsetzung wird hier nicht erfüllt.</p>
 
-                        <img class = "content-img" src="files\img\GesetzDerGutenFortsetzung2.jpg" alt="unstrukturierte Navigation">
+                        <img class = "content-img" src="files\img\GesetzDerGutenFortsetzung2.png" alt="unstrukturierte Navigation">
 
                         <p>Durch die senkrechte Fluchtlinie im zweiten Beispiel wird ein optischer Zusammenhang erzeugt. 
                         Das Auge folgt automatisch den Punkten nach unten und der Nutzer erkennt die Navigation 
                         in diesem Abschnitt der Webseite.</p>
 
-                        <img class = "content-img" src="files\img\GesetzDerGutenFortsetzung3.jpg" alt="gut strukturierte Navigation">
+                        <img class = "content-img" src="files\img\GesetzDerGutenFortsetzung3.png" alt="gut strukturierte Navigation">
                         
                     </div>
 
@@ -191,7 +193,7 @@
                         <p>Bei symmetrischen Konturen werden die Zwischenräume zur Figur angesehen, während die Zwischenräume
                          von asymmetrischen Konturen zum Hintergrund zählen.  </p>
 
-                        <img class = "content-img" src="files\img\GesetzDerSymmetrie.jpg" alt="Beispiel: symmetrische und asymmetrische Konturen">
+                        <img class = "content-img" src="files\img\GesetzDerSymmetrie.gif" alt="Beispiel: symmetrische und asymmetrische Konturen">
                     </div>
 
                 </div>
@@ -219,7 +221,7 @@
                         sind grafische Statistiken. Hier kann es schnell zu Missverständnissen kommen und der Leser der Grafik kann, 
                         wenn beim Erstellen nicht darauf geachtet wurde, falsche Ergebnisse wahrnehmen (siehe Beispielbild).  </p>
 
-                        <img class = "content-img" src="files\img\GesetzDerGutenGestalt.jpg" alt="Beispiel für ein Vexierbild bei Temperaturangeben">
+                        <img class = "content-img" src="files\img\GesetzDerGutenGestalt.png" alt="Beispiel für ein Vexierbild bei Temperaturangeben">
 
                     </div>
 
@@ -228,6 +230,83 @@
             ]]></content>
 
         </gesetz>
+
+        <gesetz id="7" path="7" lang="de">
+            
+            <content><![CDATA[
+
+                <div class="container">
+
+                    <div id="Gestaltgesetze">
+
+                        <h1>Konturen</h1>
+
+                        <hr>
+
+                        <p>Die menschliche Wahrnehmung hat einen Zwang zur Kontur. Bekannte Konturen werden dadurch selbst dann wahrgenommen, 
+                        wenn sie nur Teilweise vorhanden sind.   </p>
+
+                        <img class = "content-img" src="files\img\Konturen.png" alt="Konturen eines Würfels werden nur teilweise dargestellt, wir können das Objekt jedoch wahrnehmen.">
+
+                    </div>
+
+                </div>
+
+            ]]></content>
+
+        </gesetz>
+
+        <gesetz id="8" path="8" lang="de">
+            
+            <content><![CDATA[
+
+                <div class="container">
+
+                    <div id="Gestaltgesetze">
+
+                        <h1>Verstärkung und Abschwächung der Wirkungen</h1>
+
+                        <hr>
+
+                        <p>Durch Linien und andere graphische Hervorhebungen können die Wirkungen der Gestaltgesetze entweder verstärkt 
+                        oder abgeschwächt werden. Auch die Kombination verschiedener Gestaltgesetze führt zu diesem Effekt.   </p>
+
+                        <img class = "content-img" src="files\img\Verstärkung.png" alt="">
+
+                    </div>
+
+                </div>
+
+            ]]></content>
+
+        </gesetz>
+
+        <gesetz id="9" path="9" lang="de">
+            
+            <content><![CDATA[
+
+                <div class="container">
+
+                    <div id="Gestaltgesetze">
+
+                        <h1>Isolation von Darstellungselementen</h1>
+
+                        <hr>
+
+                        <p>Durch viele Gestaltgesetze gruppiert die menschliche Wahrnehmung Elemente. 
+                        Durch die Gestaltgesetze kann gezielt aber auch eine Isolation erreicht werden.   </p>
+
+                        <img class = "content-img" src="files\img\Isolation.jpg" alt="">
+
+                    </div>
+
+                </div>
+
+            ]]></content>
+
+        </gesetz>
+
+
 
     </gesetze>
 
