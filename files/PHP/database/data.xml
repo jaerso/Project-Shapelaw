@@ -9,6 +9,7 @@
         <gesetz id="1" path="1" lang="de">
 
             <content><![CDATA[
+            <div id="main">
 
                 <div class="container">
 
@@ -49,6 +50,7 @@
                     </div>
 
                 </div>
+                </div>
 
             ]]></content>
 
@@ -58,6 +60,7 @@
         <gesetz id="2" path="2" lang="de">
             
             <content><![CDATA[
+            <div id="main">
 
                 <div class="container">
 
@@ -96,6 +99,7 @@
                     </div>
 
                 </div>
+                </div>
 
             ]]></content>
 
@@ -104,6 +108,7 @@
         <gesetz id="3" path="3" lang="de">
             
             <content><![CDATA[
+            <div id="main">
 
                 <div class="container">
 
@@ -137,6 +142,7 @@
                     </div>
 
                 </div>
+                </div>
 
             ]]></content>
 
@@ -145,6 +151,7 @@
         <gesetz id="4" path="4" lang="de">
             
             <content><![CDATA[
+            <div id="main">
 
                 <div class="container">
 
@@ -167,6 +174,7 @@
                     </div>
 
                 </div>
+                </div>
 
             ]]></content>
 
@@ -175,6 +183,7 @@
         <gesetz id="5" path="5" lang="de">
             
             <content><![CDATA[
+            <div id="main">
 
                 <div class="container">
 
@@ -195,6 +204,7 @@
                     </div>
 
                 </div>
+                </div>
 
             ]]></content>
 
@@ -203,6 +213,7 @@
         <gesetz id="6" path="6" lang="de">
             
             <content><![CDATA[
+            <div id="main">
 
                 <div class="container">
 
@@ -223,6 +234,7 @@
 
                     </div>
 
+                </div>
                 </div>
 
             ]]></content>
