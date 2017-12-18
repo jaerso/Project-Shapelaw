@@ -11,10 +11,10 @@ generateOrderQuestion($conn);
 generateOrderAnswer();
 
 ?>
-<a href="./index.php?page=test&id=1" class="btn btn-1"> Starte jetzt den Test!</a></button>
+<a href="./index.php?page=test&difficulty" class="btn btn-1"> Starte jetzt den Test!</a></button>
 <!--echo "<a href='../../index.php?page=test&id=1?'".$orderq."'&'".$ordera."'>Test starten!</a>";-->
 
-</form>
+
 
 </div>
 </section>

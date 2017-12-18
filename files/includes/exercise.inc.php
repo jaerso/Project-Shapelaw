@@ -1,6 +1,8 @@
 <?php
+//function difficulty($orderq){
 
-
+       
+        //}
 function generateQuestions($conn){
 $questions = array();
 $sql= "SELECT * FROM questions";
@@ -79,22 +81,20 @@ function generateAnswers($conn){
         $_SESSION['ordera']=$ordera;
     }
     
-function printExercise($q,$a,$orderq,$ordera,$value){
-        $g=sizeof($q);
+function printExercise($q,$a,$difficulty,$ordera,$value){
+        $g=sizeof($difficulty);
     $id=$_GET['id'];
     $id-=1;
     $j=0;
-    $order=$orderq[$id];
+    $order=$difficulty[$id];
     echo "<h2>$q[$order]</h2><br>";
     $answers='';
-    
-    //echo "<form action='Auswertung.inc.php' method='POST'>";
     echo"<form action='files/includes/evaluation.inc.php' method='post'>";
     for($i=0;$i<sizeof($ordera);$i++,$j++){
           $o=$ordera[$j];
           $print= $a[$order][$o];
           $v=$value[$order][$o];
-    echo "<div><input type='radio' name='answersgroup' value='$v' required> $print</div><br>";
+    echo "<div><input type='radio' name='answersgroup' value='$v'> $print</div><br>";
          }
     echo"<input type='hidden' name='loc' value='".$_GET['id']."'>";
    
@@ -110,13 +110,9 @@ function printExercise($q,$a,$orderq,$ordera,$value){
 else{
         echo"<button type='submit' name='endSubmit'>Test beenden</button>";    
 }
- 
-echo "</form>";
-
-
+ echo "</form>";
 return $id;
 
 }
 
-//function evaluation();
 ?>
