@@ -1,53 +1,89 @@
-<div class="container">
 
-    <div id="Gestaltgesetze">
 
-    <h1>Gestaltgesetze</h1>
+<?php
 
-    <blockquote class="blockquote">
-  <p class="mb-0">
-  Die Gestaltpsychologie ist eine Wahrnehmungslehre, die in den 20er bis 40er Jahren des letzten 
-  Jahrhunderts in Deutschland entstanden ist (ihre Wurzeln reichen zurück bis ins 19. Jahrhundert). 
-  Die Gestaltpsychologen interessierten sich vor allem dafür, wie wir komplexe Szenerien oder Reize wahrnehmen.
-  </p>
-</blockquote>
+    if(isset($_GET['gesetz'])){  ?>
 
-        <h1> Gesetz der Ähnlichkeit / Gleichheit </h1>
-
-        <hr>
-
-        <p>Elemente, welche einander gleichen, nehmen wir als zusammengehörig wahr. 
-        Dabei vergleichen wir die optischen Reize bei verschiedenfarbigen Elementen,
-        unterscheiden zwischen Helligkeiten, Größe der Elemente oder ihrer Orientierung aber auch ihrer Form. 
-        So erkennen Menschen in kürzester Zeit verschiedene Formen in einer Ansammlung an bekannten geometrischen Figuren und können diese im Kopf nach Kreis,
-        Quadrat, Dreieck etc. problemlos gruppieren. </p>
-
+        <section id="content">
         
-        <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit.jpg" alt="Bild">
-        
-        <br>
+        <?=getContent($gesetz)?>
+        </section>
 
-        <p>Angewendet wird es zum Gesetz der Gleichheit. Hierbei wird z.B. bei Formularen in Computeranwendungen die gleiche Sorte von Eingabefeldern benutzt. 
-        So erkennt der Nutzer sofort, dass alle Rechtecke Eingabefelder sind. </p>
+    <?php } else { ?>
 
-        <img src="">
+        <div class="container">
 
-        <br>
+            <div id="Gestaltgesetze">
 
-        <p>Soll innerhalb der gleichen Formen ein Unterschied bei den Eingabefeldern dargestellt werden, so kann das mit dem Aspekt der Farbe erreicht werden. 
-        Dadurch weiß der Nutzer, es handelt sich immer noch um Eingabefelder, die jedoch zu einer anderen Gruppe gehören als die weißen Felder. </p>
-        
+                <h1>Gestaltgesetze</h1>
 
-        <img src="">
+                <blockquote class="blockquote">
+                    <p class="mb-0">
+                    Die Gestaltpsychologie ist eine Wahrnehmungslehre, die in den 20er bis 40er Jahren des letzten 
+                    Jahrhunderts in Deutschland entstanden ist (ihre Wurzeln reichen zurück bis ins 19. Jahrhundert). 
+                    Die Gestaltpsychologen interessierten sich vor allem dafür, wie wir komplexe Szenerien oder Reize wahrnehmen.
+                    </p>
+                </blockquote>
 
-        <p>Gleiches gilt für Buttons auf Webseiten. Durch ihre ähnliche Form und evtl. auch farbliche Absetzung fasst der Nutzer diese Buttons einer funktionalen Gruppe zusammen. </p>
+                <div class="container">
 
-        <p>Das Gesetz der Ähnlichkeit wird verstärkt durch das Gesetz der Nähe.</p>
-        <br>
-    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div id='divBorder' style="cursor: pointer;">
+                                <a href="index.php?page=appearance&gesetz=1">
+                                    <h1 style="text-align: center; margin-bottom: 1em !important;"> Gesetz der Ähnlichkeit</h1>
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn1.jpg" alt="Gesetz der Ähnlichkeit / Gleichheit"> -->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div id='divBorder' style="cursor: pointer;">
+                                <a href="index.php?page=appearance&gesetz=2">
+                                    <h1 style="text-align: center; margin-bottom: 1em !important;"> Gesetz der <br>Nähe</h1>
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn2.jpg" alt="Bildbeschreibung Platzhalter"> -->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div id='divBorder' style="cursor: pointer;">
+                                <a href="index.php?page=appearance&gesetz=3">
+                                    <h1 style="text-align: center; margin-bottom: 1em !important;"> Gesetz der guten Fortsetzung</h1>
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn3.jpg" alt="Bildbeschreibung Platzhalter"> -->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div id='divBorder' style="cursor: pointer;">
+                                <a href="index.php?page=appearance&gesetz=4">
+                                    <h1 style="text-align: center; margin-bottom: 1em !important;"> Gesetz der Schließung</h1>
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn4.jpg" alt="Bildbeschreibung Platzhalter"> -->
+                                </a>
+                            </div>
+                        </div>
 
-    <div id="Gestaltgesetze">
+                        <div class="col-sm-4">
+                            <div id='divBorder' style="cursor: pointer;">
+                                <a href="index.php?page=appearance&gesetz=5">
+                                    <h1 style="text-align: center; margin-bottom: 1em !important;"> Gesetz der Symmetrie</h1>
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn5.jpg" alt="Bildbeschreibung Platzhalter"> -->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div id='divBorder' style="cursor: pointer;">
+                                <a href="index.php?page=appearance&gesetz=6">
+                                    <h1 style="text-align: center; margin-bottom: 1em !important;"> Gesetz der guten Gestalt</h1>
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn6.jpg" alt="Bildbeschreibung Platzhalter"> -->
+                                </a>
+                            </div>
+                        </div>
+                                                
+                    </div>
+                    
+                </div>
 
-    </div>
+            </div>
 
-</div>
+        </div>
+
+<?php } ?>

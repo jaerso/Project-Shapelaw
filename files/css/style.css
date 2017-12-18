@@ -367,6 +367,26 @@ text-align: center;
 
 /*Gestaltgesetze*/
 
+#divBorder:hover{
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);  
+}
+
+#divBorder{
+	transition: all .2s ease-in-out !important;
+	  border-style: inset !important;
+	  border-width: 2px !important;
+	  border-color: black !important;
+	  margin: 1em 0em 2em 0em !important;
+}
+
+/*Ende Gestaltgesetze*/
+
+/*GestaltgesetzeAlt*/
+
 .content-img{
     float: right !important;
     margin: 30px 30px 20px 30px !important;
@@ -394,7 +414,7 @@ text-align: center;
 }
 
 #Dialoggestaltung h2{
-    margin: 0 auto 2em auto; 
+    margin: 1em auto 1em auto; 
 }
 
 
@@ -478,3 +498,10 @@ color: white !important;
     
 }
 
+
+#test {
+    margin-left: 200px !important;
+    background: blue !important;
+    width: 200px !important;
+    height: 100px !important;
+}
