@@ -124,7 +124,7 @@
                                     </ul>
                   </section>
     
-                                <section class="col-lg-3 col-lg-push-1 col-md-3 col-md-push-1 col-xs-12">
+                                <section class="col-lg-4 col-lg-push-1 col-md-4 col-md-push-1 col-xs-12">
                                     <h3>placeholder</h3>
                                     <ul class="unstyled">
                                         <li><a href="#">placeholder</a></li>
