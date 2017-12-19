@@ -11,7 +11,7 @@ generateOrderQuestion($conn);
 generateOrderAnswer();
 
 ?>
-<a href="./index.php?page=test&difficulty" class="btn btn-2"> Starte jetzt den Test!</a>
+<a href="./index.php?page=test&difficulty" class="btn btn-2"> Starte jetzt dein Test!</a>
 <!--echo "<a href='../../index.php?page=test&id=1?'".$orderq."'&'".$ordera."'>Test starten!</a>";-->
 
 </div>
