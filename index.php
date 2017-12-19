@@ -104,41 +104,42 @@
     <footer id="footer">
     
           <div class="container">
-                        <section class="links">
-                            <div class="row">
+                <section class="links">
+                    <div class="row">
     
                         <div class="col-lg-12 col-md-12 col-xs-12">
-                        <a class="backtotop" href="#top"><span class="fa fa-angle-up fa-3x"></span></a>
-                        <hr id="hr-footer">
+                            <a class="backtotop" href="#top"><span class="fa fa-angle-up fa-3x"></span></a>
+                            <hr id="hr-footer">
+                        </div>
+    
+                        <section class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-xs-12">
+                            <h3>placeholder</h3>
+                            <ul>
+                            <li><a href="#">placeholder</a></li>
+                            <li><a href="#">placeholder</a></li>
+                            </ul>
+                        </section>
+    
+                        <section class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-xs-12">
+                            <h3>placeholder</h3>
+                            <ul>
+                                <li><a href="#">placeholder</a></li>
+                                <li><a href="#">placeholder</a></li>
+                            </ul>
+                        </section>
+    
                     </div>
+
+                </section>
     
-            <section class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-xs-12">
-                <h3>placeholder</h3>
-                <ul>
-                  <li><a href="#">placeholder</a></li>
-                  <li><a href="#">placeholder</a></li>
-                </ul>
-              </section>
-    
-                                <section class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-xs-12">
-                                    <h3>placeholder</h3>
-                                    <ul>
-                                        <li><a href="#">placeholder</a></li>
-                                        <li><a href="#">placeholder</a></li>
-                                    </ul>
-                  </section>
-    
-                            </div>
-              </section>
-    
-                        <div class="row">
-                            <div class="col-lg-8 col-md-8 col-xs-12">
-                                <ul class="copyright">
-                                    <li>&copy; 2017 Shapelaw</li>
-                                </ul>
-                            </div>
-                        </div>
-                        </div>
+                <div class="row">
+                    <div class="col-lg-8 col-md-8 col-xs-12">
+                        <ul class="copyright">
+                            <li>&copy; 2017 Shapelaw</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
     
       </footer>
 
