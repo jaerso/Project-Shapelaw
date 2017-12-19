@@ -114,7 +114,7 @@
     
             <section class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-xs-12">
                 <h3>placeholder</h3>
-                <ul class="unstyled">
+                <ul>
                   <li><a href="#">placeholder</a></li>
                   <li><a href="#">placeholder</a></li>
                 </ul>
@@ -122,7 +122,7 @@
     
                                 <section class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-xs-12">
                                     <h3>placeholder</h3>
-                                    <ul class="unstyled">
+                                    <ul>
                                         <li><a href="#">placeholder</a></li>
                                         <li><a href="#">placeholder</a></li>
                                     </ul>
