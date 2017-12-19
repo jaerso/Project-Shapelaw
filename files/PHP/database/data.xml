@@ -57,8 +57,8 @@
                             </div>
                             
                             <div class="content-block">
-                                <img class = "content-img-left" src="files\img\GesetzDerÄhnlichkeitGleichheit4.jpg" alt="Bild zur Verdeutlichung des oberen Textes">
-                                <p>Gleiches gilt für Buttons auf Webseiten. Durch ihre ähnliche Form und evtl. auch farbliche Absetzung fasst der Nutzer diese Buttons einer funktionalen Gruppe zusammen. 
+                                <img class = "content-img-left" style="width: 700px; height: auto;" src="files\img\GesetzDerÄhnlichkeitGleichheit4.jpg" alt="Bild zur Verdeutlichung des oberen Textes">
+                                <p style="padding-top:100px !important;">Gleiches gilt für Buttons auf Webseiten. Durch ihre ähnliche Form und evtl. auch farbliche Absetzung fasst der Nutzer diese Buttons einer funktionalen Gruppe zusammen. 
                                 <br><br>Das Gesetz der Ähnlichkeit wird verstärkt durch das Gesetz der Nähe.</p>
                             </div>
                             <br>
@@ -107,7 +107,7 @@
                         zueinander als zusammengehörig.</p>
 
                         <br>
-                        <img style="padding: 20px" src="files\img\GesetzDerNähe2.jpg" alt="Kontaktformular, gegliedert in zwei Bereiche">
+                        <img style="width: 700px; height: auto; padding: 20px 20px 50px 0px;" src="files\img\GesetzDerNähe2.jpg" alt="Kontaktformular, gegliedert in zwei Bereiche">
                         <br>
 
                         <p >Durch die Entfernung zwischen Elementen kann auch eine Abgrenzung statt einer Gruppierung hervorgerufen werden. 
