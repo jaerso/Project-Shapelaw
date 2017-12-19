@@ -31,5 +31,7 @@ elseif($result<50){
     echo "</div>"
   ?>
 
+  <a href="index.php?page=home">Zurück zur Startseite!</a>
+
 </div>
 </section>
