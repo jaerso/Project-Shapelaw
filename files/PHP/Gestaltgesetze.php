@@ -44,7 +44,12 @@
                         <div class="col-sm-4">
                             <div class="divBorder" style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=2">
+<<<<<<< HEAD
                                     <img src="files\img\gesetzübersicht\gesetz-der-ähnlichkeit.png" alt="Gesetz der Nähe">
+=======
+                                    <h1> Gesetz der Nähe </h1>
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn2.jpg" alt="Bildbeschreibung Platzhalter"> -->
+>>>>>>> b7de0e40db1c64fdc0f55df0e99cde1aed3868ea
                                 </a>
                             </div>
                         </div>
