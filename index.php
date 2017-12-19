@@ -17,101 +17,101 @@
 </head>
 
 <body>
-    <header id="header">
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-faded">
-       
-            <a class="navbar-brand" href="index.php?page=home">Shapelaw</a>
-          <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+    <div id="wrapper">
+        <header id="header">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-faded">
+        
+                <a class="navbar-brand" href="index.php?page=home">Shapelaw</a>
+                <button class="navbar-toggler navbar-toggler-right custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto">
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
 
-              <?php
-  $nav = "
-       <li ".(( $_GET['page'] == 'home') ? 'class="active"' : '')."><a href=\"index.php?page=home\">Start</a></li>
-       <li ".(( $_GET['page'] == 'appearance') ? 'class="active"' : '')."><a href=\"index.php?page=appearance\">Gestaltgesetze</a></li>
-       <li ".(( $_GET['page'] == 'dialog') ? 'class="active"' : '')."><a href=\"index.php?page=dialog\">Dialoggestaltung</a></li>
-       <li ".(( $_GET['page'] == 'test') ? 'class="active"' : '')."><a href=\"index.php?page=test\">Test</a></li>
-       ";
-    echo $nav;
-?>
+                    <?php
+                        $nav = "
+                        <li ".(( $_GET['page'] == 'home') ? 'class="active"' : '')."><a href=\"index.php?page=home\">Start</a></li>
+                        <li ".(( $_GET['page'] == 'appearance') ? 'class="active"' : '')."><a href=\"index.php?page=appearance\">Gestaltgesetze</a></li>
+                        <li ".(( $_GET['page'] == 'dialog') ? 'class="active"' : '')."><a href=\"index.php?page=dialog\">Dialoggestaltung</a></li>
+                        <li ".(( $_GET['page'] == 'test') ? 'class="active"' : '')."><a href=\"index.php?page=test\">Test</a></li>
+                        ";
+                        echo $nav;
+                    ?>
 
-<!--alte li-Elemente, ohne active status-->
+                    <!--alte li-Elemente, ohne active status-->
 
-              <!--
-                <li class="nav-item">
-                  <a class="nav-link" href="index.php?page=home">Start <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.php?page=appearance">Gestaltgesetze</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.php?page=dialog">Dialoggestaltung</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.php?page=test">Test</a>
-                </li>
-                -->
-            
-              </ul>
-            </div>
-          </nav>
+                        <!--
+                            <li class="nav-item">
+                            <a class="nav-link" href="index.php?page=home">Start <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="index.php?page=appearance">Gestaltgesetze</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="index.php?page=dialog">Dialoggestaltung</a>
+                            </li>
+                            <li class="nav-item">
+                            <a class="nav-link" href="index.php?page=test">Test</a>
+                            </li>
+                            -->
+                
+                    </ul>
+                </div>
+            </nav>
+        </header>
 
-    </header>
 
-    <?php 
-        if(!isset($_GET['page'])){
-            header("Location: index.php?page=home");
-        }
-        elseif($_GET['page']==''){$_GET['page']='home';}
-        ?>
-
-        <?php
-        if($_GET['page'] != 'home'  && $_GET['page'] != 'test' && $_GET['page'] != 'testevaluation' || $_GET['page'] == null){ echo "<div id=\"main\">";}
-        ?>
-
-            <?php
-            if($_GET['page'] =='home'){
-                include_once "files/PHP/Startseite.php";
+        <div class="main-content">
+        <?php 
+            if(!isset($_GET['page'])){
+                header("Location: index.php?page=home");
             }
-            elseif($_GET['page'] =='appearance'){
-               include_once "files/PHP/Gestaltgesetze.php";
-            }
-            elseif($_GET['page'] =='dialog'){
-                include_once "files/PHP/Dialoggesetze.php";
-            }
-            elseif($_GET['page'] =='test'){
-                if(isset($_GET['id'])){
-                    include_once "files/PHP/Test.php";
-                }
-                elseif(isset($_GET['difficulty'])){
-                    include_once "files/PHP/Difficulty.php";
-                }
-                else{
-                    include_once "files/PHP/TestStart.php";
-                }
-                 }
-            elseif($_GET['page'] =='testevaluation'){
-                include_once "files/PHP/Evaluation.php";
-                }
+            elseif($_GET['page']==''){$_GET['page']='home';}
             ?>
 
-        <?php if($_GET['page']!='home'){echo "</div>";}
-        ?>
+                <?php
+                if($_GET['page'] =='home'){
+                    include_once "files/PHP/Startseite.php";
+                }
+                elseif($_GET['page'] =='appearance'){
+                include_once "files/PHP/Gestaltgesetze.php";
+                }
+                elseif($_GET['page'] =='dialog'){
+                    include_once "files/PHP/Dialoggesetze.php";
+                }
+                elseif($_GET['page'] =='test'){
+                    if(isset($_GET['id'])){
+                        include_once "files/PHP/Test.php";
+                    }
+                    elseif(isset($_GET['difficulty'])){
+                        include_once "files/PHP/Difficulty.php";
+                    }
+                    else{
+                        include_once "files/PHP/TestStart.php";
+                    }
+                    }
+                elseif($_GET['page'] =='testevaluation'){
+                    include_once "files/PHP/Evaluation.php";
+                    }
+                ?>
 
-    <footer id="footer">
-    
-          <div class="container">
+        
+        <div class="clearfix">
+        </div>
+        </div>
+
+        <footer id="footer">
+        
+            <div class="container">
                 <section class="links">
                     <div class="row">
-    
+        
                         <div class="col-lg-12 col-md-12 col-xs-12">
                             <a class="backtotop" href="#top"><span class="fa fa-angle-up fa-3x"></span></a>
                             <hr id="hr-footer">
                         </div>
-    
+        
                         <section class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-xs-12">
                             <h3>placeholder</h3>
                             <ul>
@@ -119,7 +119,7 @@
                             <li><a href="#">placeholder</a></li>
                             </ul>
                         </section>
-    
+        
                         <section class="col-lg-6 col-lg-push-1 col-md-6 col-md-push-1 col-xs-12">
                             <h3>placeholder</h3>
                             <ul>
@@ -127,11 +127,11 @@
                                 <li><a href="#">placeholder</a></li>
                             </ul>
                         </section>
-    
+        
                     </div>
 
                 </section>
-    
+        
                 <div class="row">
                     <div class="col-lg-8 col-md-8 col-xs-12">
                         <ul class="copyright">
@@ -140,8 +140,9 @@
                     </div>
                 </div>
             </div>
-    
-      </footer>
+        
+        </footer>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

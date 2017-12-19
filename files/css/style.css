@@ -15,6 +15,16 @@ img {
     height: auto;
 }
 
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.main-content {
+    position: relative;
+    padding-bottom: 280px;
+}
+
 /* Navigation */
 
 #header nav a {
@@ -249,8 +259,8 @@ section {
     text-align: center;
 }
 
-#main {
-    margin: 60px auto 50px auto !important;
+.main {
+    margin: 100px auto 50px auto ;
 }
 
 /* HOME */
@@ -406,12 +416,23 @@ text-align: center;
 
 /*GestaltgesetzeAlt*/
 
-.content-img{
+.content-img-right{
     float: right !important;
-    margin: 30px 30px 20px 30px !important;
+    margin:50px !important;
+    height: auto;
+    width: 300px;
+}
+
+.content-img-left{
+    float: left !important;
+    margin:50px !important;
+    height: auto;
+    width: 300px;
 }
 
 #Gestaltgesetze { 
+    text-align: left;
+    font-size: 0,1em;
 }
 
 #Gestaltgesetze h1{
@@ -452,6 +473,9 @@ list-style: none;
     -o-background-size: cover;
     background-size: cover;
     padding: 1em 0em 0em;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
     
 }
 
