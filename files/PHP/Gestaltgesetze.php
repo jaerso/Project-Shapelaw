@@ -37,21 +37,21 @@
                         <div class="col-sm-4">
                             <div class="divBorder" style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=1">
-                                    <img src="files\img\gesetzübersicht\gesetz-der-ähnlichkeit.png" alt="Gesetz der Ähnlichkeit / Gleichheit">
+                                    <img src="files\img\gesetzübersicht\1gesetz-der-ähnlichkeit.png" alt="Weiter zu dem Gesetz der Ähnlichkeit / Gleichheit">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="divBorder" style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=2">
-                                    <img src="files\img\gesetzübersicht\gesetz-der-ähnlichkeit.png" alt="Gesetz der Nähe">
+                                    <img src="files\img\gesetzübersicht\2gesetz-der-nähe.png" alt="Weiter zu dem Gesetz der Nähe">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="divBorder" style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=3">
-                                    <img src="files\img\gesetzübersicht\gesetz-der-ähnlichkeit.png" alt="Gesetz der Nähe">
+                                    <img src="files\img\gesetzübersicht\3gesetz-der-guten-fortsetzung.png" alt="Weiter zu dem Gesetz der guten Fortsetzung">
                                 </a>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                         <div class="col-sm-4">
                             <div class="divBorder" style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=4">
-                                <img src="files\img\gesetzübersicht\gesetz-der-ähnlichkeit.png" alt="Gesetz der Nähe">
+                                <img src="files\img\gesetzübersicht\4gesetz-der-schließung.png" alt="Weiter zu dem Gesetz der Schließung">
                                 </a>
                             </div>
                         </div>
@@ -68,14 +68,14 @@
                         <div class="col-sm-4">
                             <div class="divBorder" style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=5">
-                                <img src="files\img\gesetzübersicht\gesetz-der-ähnlichkeit.png" alt="Gesetz der Nähe">
+                                <img src="files\img\gesetzübersicht\5gesetz-der-symmetrie.png" alt="Weiter zu dem Gesetz der Symmetrie">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class="divBorder" style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=6">
-                                <img src="files\img\gesetzübersicht\gesetz-der-ähnlichkeit.png" alt="Gesetz der Nähe">
+                                <img src="files\img\gesetzübersicht\6gesetz-der-guten-gestalt.png" alt="Weiter zu dem Gesetz der guten Gestalt">
                                 </a>
                             </div>
                         </div>
@@ -84,7 +84,7 @@
                         <div class="col-sm-4">
                             <div class='divBorder' style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=7">
-                                <img src="files\img\gesetzübersicht\gesetz-der-ähnlichkeit.png" alt="Gesetz der Nähe">
+                                <img src="files\img\gesetzübersicht\7konturen.png" alt="Weiter zu Konturen">
                                 </a>
                             </div>
                         </div>
@@ -92,14 +92,14 @@
                         <div class="col-sm-4">
                             <div class='divBorder' style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=8">
-                                <img src="files\img\gesetzübersicht\gesetz-der-ähnlichkeit.png" alt="Gesetz der Nähe">
+                                <img src="files\img\gesetzübersicht\8verstärkung-und-abschwächung-von-wirkungen.png" alt="Weiter zu Verstärkung und abschwächung von Wirkungen">
                                 </a>
                             </div>
                         </div>
                         <div class="col-sm-4">
                             <div class='divBorder' style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=9">
-                                <img src="files\img\gesetzübersicht\gesetz-der-ähnlichkeit.png" alt="Gesetz der Nähe">
+                                <img src="files\img\gesetzübersicht\9isolation-von-darstellungselementen.png" alt="Weiter zu Isolation von Darstellungselementen">
                                 </a>
                             </div>
                         </div>

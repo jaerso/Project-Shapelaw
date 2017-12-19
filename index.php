@@ -92,7 +92,7 @@
                     <div class="row">
         
                         <div class="col-lg-12 col-md-12 col-xs-12">
-                            <a class="backtotop" alt="Anker nach oben" href="#top"><span class="fa fa-angle-up fa-3x"></span></a>
+                            <a class="backtotop" alt="Zum Seitenanfang" href="#top"><span class="fa fa-angle-up fa-3x"></span></a>
                             <hr id="hr-footer">
                         </div>
         
