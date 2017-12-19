@@ -86,12 +86,15 @@ function printExercise($q,$a,$difficulty,$ordera,$value){
     echo "<h2>$q[$order]</h2><br>";
     $answers='';
     echo"<form action='files/includes/evaluation.inc.php' method='post'>";
+    echo "<div>";
     for($i=0;$i<sizeof($ordera);$i++,$j++){
           $o=$ordera[$j];
           $print= $a[$order][$o];
           $v=$value[$order][$o];
+          
     echo "<div><label><input type='radio' name='answersgroup' value='$v' required> $print</label></div><br>";
          }
+         echo "</div>";
     echo"<input type='hidden' name='loc' value='".$_GET['id']."'>";
    
  // echo"  <button type='submit' onsubmit='return checkAnswer()'>Auswahl bestätigen</button>";
