@@ -2,7 +2,8 @@
 
 include_once('Databasehandler.php');
 
-//if(isset($_GET['gesetz'])){
+if(isset($_GET['gesetz'])){
+    
     $gesetz = $_GET['gesetz'];
 
 
@@ -30,5 +31,5 @@ include_once('Databasehandler.php');
         //return $page_data[$page]['content'];
         return readContent($page);
     }*/
-    //}
+    }
 ?>
