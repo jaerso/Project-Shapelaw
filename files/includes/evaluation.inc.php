@@ -40,6 +40,7 @@ function Endergebnis(){
     for($i=0;$i<$size;$i++){
     $pkt+=$e[$i];
     }
+    $size+=1;
     $_SESSION['size']=$size;
     //$result= ($pkt/$size)*100;
     //return $result;

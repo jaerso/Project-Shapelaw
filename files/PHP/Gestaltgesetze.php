@@ -43,7 +43,7 @@
                             <div class="divBorder" style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=2">
                                     <h1> Gesetz der <br> Nähe </h1>
-                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn2.jpg" alt="Bildbeschreibung Platzhalter"> -->
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn2.jpg" alt="Gesetz der Nähe"> -->
                                 </a>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
                             <div class="divBorder" style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=3">
                                     <h1> Gesetz der guten Fortsetzung</h1>
-                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn3.jpg" alt="Bildbeschreibung Platzhalter"> -->
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn3.jpg" alt="Gesetz der guten Fortsetzung"> -->
                                 </a>
                             </div>
                         </div>
@@ -61,7 +61,7 @@
                             <div class="divBorder" style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=4">
                                     <h1> Gesetz der Schließung</h1>
-                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn4.jpg" alt="Bildbeschreibung Platzhalter"> -->
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn4.jpg" alt="Gesetz der Schließung"> -->
                                 </a>
                             </div>
                         </div>
@@ -70,7 +70,7 @@
                             <div class="divBorder" style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=5">
                                     <h1> Gesetz der Symmetrie</h1>
-                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn5.jpg" alt="Bildbeschreibung Platzhalter"> -->
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn5.jpg" alt="Gesetz der Symmetrie"> -->
                                 </a>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                             <div class="divBorder" style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=6">
                                     <h1> Gesetz der guten Gestalt</h1>
-                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn6.jpg" alt="Bildbeschreibung Platzhalter"> -->
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn6.jpg" alt="Gesetz der guten Gestalt"> -->
                                 </a>
                             </div>
                         </div>
@@ -88,7 +88,7 @@
                             <div id='divBorder' style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=7">
                                     <h1 style="text-align: center; margin-bottom: 1em !important;"> Konturen</h1>
-                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn4.jpg" alt="Bildbeschreibung Platzhalter"> -->
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn4.jpg" alt="Konturen"> -->
                                 </a>
                             </div>
                         </div>
@@ -97,7 +97,7 @@
                             <div id='divBorder' style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=8">
                                     <h1 style="text-align: center; margin-bottom: 1em !important;"> Verstärkung und Abschwächung der Wirkungen</h1>
-                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn5.jpg" alt="Bildbeschreibung Platzhalter"> -->
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn5.jpg" alt="Verstärkung und Abschwächung der Wirkungen"> -->
                                 </a>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                             <div id='divBorder' style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=9">
                                     <h1 style="text-align: center; margin-bottom: 1em !important;"> Isolation von Darstellungselementen</h1>
-                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn6.jpg" alt="Bildbeschreibung Platzhalter"> -->
+                                    <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn6.jpg" alt="Isolation von Darstellungselementen"> -->
                                 </a>
                             </div>
                         </div>
