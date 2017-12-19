@@ -63,12 +63,6 @@ background-color: #3F51B5;
         height: auto !important;
             
          } 
-/* center brand **WIP**
-         .navbar-brand{
-            text-align: center;
-            margin; auto;
-         } 
-         */
 
          .navbar-nav a {
             margin: 0.8em 0 0.8em 0 !important;
@@ -244,9 +238,35 @@ background-color: #3F51B5;
 	color: rgb(255, 255, 255);
 }
 
+/* btn-6 Schwierigkeitsgrad  */
+.btn-6 {
+    margin: 20px 0px 0px 0px;
+	border: 3px solid #fff;
+    color: #fff;
+    line-height: 60px;
+    width: 200px;
+    font-size: 1em;
+}
+
+.btn-6:hover,
+.btn-6:active {
+	color: #0e83cd;
+	background: #fff;
+}
+
+.btn-6:hover a,
+.btn-6:active a{
+	color: #303F9F;
+}
+
 section {
-    min-height: 100%;  
+    min-height: 100%; 
     text-align: center;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
 }
 
 #main {

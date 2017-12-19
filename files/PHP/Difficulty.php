@@ -13,9 +13,17 @@ session_start();
 //echo"<form action='difficulty($orderq)' method='post'>";
 ?>
 <form method='post'>
-<button type='submit' name='easy'>Leicht</button>
-<button type='submit' name='middle'>Mittel</button>
-<button type='submit' name='hard'>Hart</button>
+<div class="row">
+    <div class="col-lg-12 col-xs-12">
+<button type='submit' name='easy' class="btn btn-6">Leicht</button>
+</div>
+<div class="col-lg-12 col-xs-12">
+<button type='submit' name='middle' class="btn btn-6">Mittel</button>
+</div>
+<div class="col-lg-12 col-xs-12">
+<button type='submit' name='hard' class="btn btn-6">Hart</button>
+</div>
+</div>
 </form>
 <?php
 
