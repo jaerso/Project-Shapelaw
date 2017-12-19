@@ -86,7 +86,7 @@ function printExercise($q,$a,$difficulty,$ordera,$value){
     echo "<h2>$q[$order]</h2><br>";
     $answers='';
     echo"<form action='files/includes/evaluation.inc.php' method='post'>";
-    echo "<div>";
+    echo "<div id='testBorder'>";
     for($i=0;$i<sizeof($ordera);$i++,$j++){
           $o=$ordera[$j];
           $print= $a[$order][$o];
