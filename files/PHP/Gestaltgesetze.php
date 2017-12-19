@@ -8,20 +8,24 @@
         </section>
 
     <?php } else { ?>
+        
+    <div class="main">
 
         <div class="container">
 
-            <div id="Gestaltgesetze">
+            <div >
 
                 <h1>Gestaltgesetze</h1>
 
-                <blockquote class="blockquote">
+                <hr>
+
+                <blockquote class="blockquote"> 
                     <p class="mb-0">
                     Die Gestaltpsychologie ist eine Wahrnehmungslehre, die in den 20er bis 40er Jahren des letzten 
                     Jahrhunderts in Deutschland entstanden ist (ihre Wurzeln reichen zurück bis ins 19. Jahrhundert). 
                     Die Gestaltpsychologen interessierten sich vor allem dafür, wie wir komplexe Szenerien oder Reize wahrnehmen.
                     </p>
-                </blockquote>
+                </blockquote> 
 
                 <div class="container">
 
@@ -113,5 +117,7 @@
             </div>
 
         </div>
+
+    </div>
 
 <?php } ?>

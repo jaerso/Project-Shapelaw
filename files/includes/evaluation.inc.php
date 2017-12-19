@@ -40,9 +40,8 @@ function Endergebnis(){
     for($i=0;$i<$size;$i++){
     $pkt+=$e[$i];
     }
-    $ges=$size;
-    $prozwert=$pkt;
-    $result= $pkt/$ges*100;
-    return round($result);
+    $result= $pkt/$size*100;
+    return $pkt;
+  //  return round($result);
 }
 ?>

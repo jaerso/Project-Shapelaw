@@ -15,6 +15,16 @@ img {
     height: auto;
 }
 
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
+.main-content {
+    position: relative;
+    padding-bottom: 245px;
+}
+
 /* Navigation */
 
 #header nav a {
@@ -83,6 +93,21 @@ background-color: #3F51B5;
                     .divBorder h1 {
                          font-size: 1.5em !important;
                     }
+
+                    .btn-6 {
+                        
+                        line-height: 40px !important;
+                        width: 130px !important;
+                    }
+
+                    .home-center {
+                        
+                        top: 19% !important; 
+                        }
+
+                        .fa-angle-double-down {
+                            top: 36% !important;
+                        }
                 
  }
 
@@ -189,6 +214,11 @@ background-color: #3F51B5;
 	background: #ff0000;
 }
 
+.btn-3 a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
 .btn-3:hover a,
 .btn-3:active a{
 	color: rgb(255, 255, 255);
@@ -219,7 +249,7 @@ background-color: #3F51B5;
 /* btn-5 Absenden */
 
 .btn-5 {
-    margin: 10px 0px 0px 20px;
+    margin: 10px 0px 0px 0px;
 	border: 3px solid #00c510;
     color: #00c510;
     line-height: 20px;
@@ -259,32 +289,31 @@ background-color: #3F51B5;
 	color: #303F9F;
 }
 
+.main {
+    margin: 100px auto 50px auto ;
+}
+
 section {
-    min-height: 100%; 
     text-align: center;
-}
-
-#wrapper {
-    min-height: 100%;
-    position: relative;
-}
-
-#main {
-    margin: 60px auto 50px auto !important;
 }
 
 /* HOME */
 
+
+
 #start {
     background-image: url(../img/Nocube.png);
     background-repeat: repeat;
+
+    min-height: 100vh; 
+    text-align: center;
     
 }
 
 
 .home-center {
 position: absolute;
-top: 50%;
+top: 22%;
 left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;  
@@ -303,7 +332,7 @@ text-align: center;
 
 .fa-angle-double-down {
     position: absolute;
-    top: 90%;
+    top: 38%;
     left: 51%;
     transform: translate(-90%, -51%);
     
@@ -315,12 +344,15 @@ text-align: center;
 #teststart {
     background-image: url(../img/Nocube.png);
     background-repeat: repeat;
+
+    min-height: 100vh; 
+    text-align: center;
     
 }
 
 .test-center {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;  
@@ -345,12 +377,15 @@ text-align: center;
 #testende {
     background-image: url(../img/Nocube.png);
     background-repeat: repeat;
+
+    min-height: 100vh; 
+    text-align: center;
     
 }
 
 .testende-center {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;  
@@ -371,11 +406,17 @@ text-align: center;
                 text-decoration: none;
             }
 
+            #testFragen {
+                min-height: 100vh;
+            }
+
 
 /* ABOUT */
 
 #about { 
     overflow:auto; 
+    min-height: 100vh; 
+    text-align: center; 
 }
 
 #about h1{
@@ -426,12 +467,23 @@ text-align: center;
 
 /*GestaltgesetzeAlt*/
 
-.content-img{
+.content-img-right{
     float: right !important;
-    margin: 30px 30px 20px 30px !important;
+    margin:50px !important;
+    height: auto;
+    width: 300px;
+}
+
+.content-img-left{
+    float: left !important;
+    margin:50px !important;
+    height: auto;
+    width: 300px;
 }
 
 #Gestaltgesetze { 
+    text-align: left;
+    font-size: 0,1em;
 }
 
 #Gestaltgesetze h1{
@@ -472,6 +524,9 @@ list-style: none;
     -o-background-size: cover;
     background-size: cover;
     padding: 1em 0em 0em;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
     
 }
 

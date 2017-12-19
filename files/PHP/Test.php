@@ -1,4 +1,4 @@
-<div id="main">
+<div class="main">
 
 <?php
 echo "<div class='container'>";
@@ -10,7 +10,7 @@ $answers=generateAnswers($conn);
 $value=rightAnswers($conn);
 $difficulty=$_SESSION['difficulty'];
 $ordera=$_SESSION['ordera'];
-echo "<div>";
+echo "<div id='testFragen'>";
    printExercise($questions,$answers,$difficulty,$ordera,$value);
    generateOrderAnswer();
 // echo"<p id='check'></p>";
