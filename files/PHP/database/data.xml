@@ -22,12 +22,19 @@
                             <div>
                                 <img class = "content-img-right" src="files\img\GesetzDerÄhnlichkeitGleichheit1.jpg" alt="Bild zur Verdeutlichung des oberen Textes">
 
+<<<<<<< HEAD
+                            
+                            <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit1.jpg" alt="Kreis -und Quadratform">
+                            
+                            <br>
+=======
                                 <p>Elemente, welche einander gleichen, nehmen wir als zusammengehörig wahr. 
                                 Dabei vergleichen wir die optischen Reize bei verschiedenfarbigen Elementen,
                                 unterscheiden zwischen Helligkeiten, Größe der Elemente oder ihrer Orientierung aber auch ihrer Form. 
                                 So erkennen Menschen in kürzester Zeit verschiedene Formen in einer Ansammlung an bekannten geometrischen Figuren und können diese im Kopf nach Kreis,
                                 Quadrat, Dreieck etc. problemlos gruppieren. </p>
                             </div>
+>>>>>>> 8528f35304295053a2c0f1980f7ab7360f0a0d72
 
                             <br>
 

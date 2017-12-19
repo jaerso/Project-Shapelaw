@@ -17,7 +17,7 @@
   </div>
 
   <a href="#about">
-    <i class="fa fa-angle-double-down fa-4x" alt="Pfeil nach unten"></i>
+    <i class="fa fa-angle-double-down fa-4x" alt="Anker nach unten"></i>
   </a>
     
   </div>
