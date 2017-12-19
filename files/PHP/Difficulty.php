@@ -7,7 +7,7 @@ include_once 'files/includes/db.inc.php';
 session_start();
 //$orderq=$_SESSION['orderq'];
 ?>
-<h1>Wähle einen Schwierigkeitsgrad!<h1>
+<h1>Wähle die Länge des Tests!<h1>
 <?php
 //difficulty($orderq);
 //echo"<form action='difficulty($orderq)' method='post'>";
@@ -15,13 +15,13 @@ session_start();
 <form method='post'>
 <div class="row">
     <div class="col-lg-12 col-xs-12">
-<button type='submit' name='short' class="btn btn-6">Leicht</button>
+<button type='submit' name='short' class="btn btn-6">kurz</button>
 </div>
 <div class="col-lg-12 col-xs-12">
-<button type='submit' name='middle' class="btn btn-6">Mittel</button>
+<button type='submit' name='middle' class="btn btn-6">mittel</button>
 </div>
 <div class="col-lg-12 col-xs-12">
-<button type='submit' name='long' class="btn btn-6">Hart</button>
+<button type='submit' name='long' class="btn btn-6">lang</button>
 </div>
 </div>
 </form>
