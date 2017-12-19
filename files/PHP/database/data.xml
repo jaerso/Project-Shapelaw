@@ -9,7 +9,7 @@
         <gesetz id="1" path="1" lang="de">
 
             <content><![CDATA[
-            <div id="main">
+            <div class="main">
 
                 <div class="container">
 
@@ -19,29 +19,40 @@
 
                             <hr>
 
-                            <p>Elemente, welche einander gleichen, nehmen wir als zusammengehörig wahr. 
-                            Dabei vergleichen wir die optischen Reize bei verschiedenfarbigen Elementen,
-                            unterscheiden zwischen Helligkeiten, Größe der Elemente oder ihrer Orientierung aber auch ihrer Form. 
-                            So erkennen Menschen in kürzester Zeit verschiedene Formen in einer Ansammlung an bekannten geometrischen Figuren und können diese im Kopf nach Kreis,
-                            Quadrat, Dreieck etc. problemlos gruppieren. </p>
+                            <div>
+                                <img class = "content-img-right" src="files\img\GesetzDerÄhnlichkeitGleichheit1.jpg" alt="Bild zur Verdeutlichung des oberen Textes">
 
+<<<<<<< HEAD
                             
                             <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit1.jpg" alt="Kreis -und Quadratform">
                             
                             <br>
-
-                            <p>Angewendet wird es zum Gesetz der Gleichheit. Hierbei wird z.B. bei Formularen in Computeranwendungen die gleiche Sorte von Eingabefeldern benutzt. 
-                            So erkennt der Nutzer sofort, dass alle Rechtecke Eingabefelder sind. </p>
-
-                            <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit2.png" alt="Bild zur Verdeutlichung des oberen Textes">
+=======
+                                <p>Elemente, welche einander gleichen, nehmen wir als zusammengehörig wahr. 
+                                Dabei vergleichen wir die optischen Reize bei verschiedenfarbigen Elementen,
+                                unterscheiden zwischen Helligkeiten, Größe der Elemente oder ihrer Orientierung aber auch ihrer Form. 
+                                So erkennen Menschen in kürzester Zeit verschiedene Formen in einer Ansammlung an bekannten geometrischen Figuren und können diese im Kopf nach Kreis,
+                                Quadrat, Dreieck etc. problemlos gruppieren. </p>
+                            </div>
+>>>>>>> 8528f35304295053a2c0f1980f7ab7360f0a0d72
 
                             <br>
 
-                            <p>Soll innerhalb der gleichen Formen ein Unterschied bei den Eingabefeldern dargestellt werden, so kann das mit dem Aspekt der Farbe erreicht werden. 
-                            Dadurch weiß der Nutzer, es handelt sich immer noch um Eingabefelder, die jedoch zu einer anderen Gruppe gehören als die weißen Felder. </p>
-                            
+                            <div>
+                                <img class = "content-img-left" src="files\img\GesetzDerÄhnlichkeitGleichheit2.png" alt="Bild zur Verdeutlichung des oberen Textes">
 
-                            <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit3.png" alt="Bild zur Verdeutlichung des oberen Textes">
+                                <p>Angewendet wird es zum Gesetz der Gleichheit. Hierbei wird z.B. bei Formularen in Computeranwendungen die gleiche Sorte von Eingabefeldern benutzt. 
+                                So erkennt der Nutzer sofort, dass alle Rechtecke Eingabefelder sind. </p>
+                            </div>
+                            
+                            <br>
+
+                            <div>
+                                <img class = "content-img" src="files\img\GesetzDerÄhnlichkeitGleichheit3.png" alt="Bild zur Verdeutlichung des oberen Textes">
+                                <p>Soll innerhalb der gleichen Formen ein Unterschied bei den Eingabefeldern dargestellt werden, so kann das mit dem Aspekt der Farbe erreicht werden. 
+                                Dadurch weiß der Nutzer, es handelt sich immer noch um Eingabefelder, die jedoch zu einer anderen Gruppe gehören als die weißen Felder. </p>
+                            </div>
+                            
 
                             <p>Gleiches gilt für Buttons auf Webseiten. Durch ihre ähnliche Form und evtl. auch farbliche Absetzung fasst der Nutzer diese Buttons einer funktionalen Gruppe zusammen. </p>
 
@@ -62,7 +73,7 @@
         <gesetz id="2" path="2" lang="de">
             
             <content><![CDATA[
-            <div id="main">
+            <div class="main">
 
                 <div class="container">
 
@@ -110,7 +121,7 @@
         <gesetz id="3" path="3" lang="de">
             
             <content><![CDATA[
-            <div id="main">
+            <div class="main">
 
                 <div class="container">
 
@@ -153,7 +164,7 @@
         <gesetz id="4" path="4" lang="de">
             
             <content><![CDATA[
-            <div id="main">
+            <div class="main">
 
                 <div class="container">
 
@@ -185,7 +196,7 @@
         <gesetz id="5" path="5" lang="de">
             
             <content><![CDATA[
-            <div id="main">
+            <div class="main">
 
                 <div class="container">
 
@@ -215,7 +226,7 @@
         <gesetz id="6" path="6" lang="de">
             
             <content><![CDATA[
-            <div id="main">
+            <div class="main">
 
                 <div class="container">
 
@@ -246,22 +257,25 @@
             
             <content><![CDATA[
 
-                <div class="container">
+                <div class="main">
 
-                    <div id="Gestaltgesetze">
+                    <div class="container">
 
-                        <h1>Konturen</h1>
+                        <div id="Gestaltgesetze">
 
-                        <hr>
+                            <h1>Konturen</h1>
 
-                        <p>Die menschliche Wahrnehmung hat einen Zwang zur Kontur. Bekannte Konturen werden dadurch selbst dann wahrgenommen, 
-                        wenn sie nur Teilweise vorhanden sind.   </p>
+                            <hr>
 
-                        <img class = "content-img" src="files\img\Konturen.png" alt="Konturen eines Würfels werden nur teilweise dargestellt, wir können das Objekt jedoch wahrnehmen.">
+                            <p>Die menschliche Wahrnehmung hat einen Zwang zur Kontur. Bekannte Konturen werden dadurch selbst dann wahrgenommen, 
+                            wenn sie nur Teilweise vorhanden sind.   </p>
+
+                            <img class = "content-img" src="files\img\Konturen.png" alt="Konturen eines Würfels werden nur teilweise dargestellt, wir können das Objekt jedoch wahrnehmen.">
+
+                        </div>
 
                     </div>
 
-                </div>
                 </div>
 
             ]]></content>
@@ -272,18 +286,22 @@
             
             <content><![CDATA[
 
-                <div class="container">
+                <div class="main">
 
-                    <div id="Gestaltgesetze">
+                    <div class="container">
 
-                        <h1>Verstärkung und Abschwächung der Wirkungen</h1>
+                        <div id="Gestaltgesetze">
 
-                        <hr>
+                            <h1>Verstärkung und Abschwächung der Wirkungen</h1>
 
-                        <p>Durch Linien und andere graphische Hervorhebungen können die Wirkungen der Gestaltgesetze entweder verstärkt 
-                        oder abgeschwächt werden. Auch die Kombination verschiedener Gestaltgesetze führt zu diesem Effekt.   </p>
+                            <hr>
 
-                        <img class = "content-img" src="files\img\Verstärkung.png" alt="">
+                            <p>Durch Linien und andere graphische Hervorhebungen können die Wirkungen der Gestaltgesetze entweder verstärkt 
+                            oder abgeschwächt werden. Auch die Kombination verschiedener Gestaltgesetze führt zu diesem Effekt.   </p>
+
+                            <img class = "content-img" src="files\img\Verstärkung.png" alt="">
+
+                        </div>
 
                     </div>
 
@@ -297,18 +315,22 @@
             
             <content><![CDATA[
 
-                <div class="container">
+                <div class="main">
 
-                    <div id="Gestaltgesetze">
+                    <div class="container">
 
-                        <h1>Isolation von Darstellungselementen</h1>
+                        <div id="Gestaltgesetze">
 
-                        <hr>
+                            <h1>Isolation von Darstellungselementen</h1>
 
-                        <p>Durch viele Gestaltgesetze gruppiert die menschliche Wahrnehmung Elemente. 
-                        Durch die Gestaltgesetze kann gezielt aber auch eine Isolation erreicht werden.   </p>
+                            <hr>
 
-                        <img class = "content-img" src="files\img\Isolation.jpg" alt="">
+                            <p>Durch viele Gestaltgesetze gruppiert die menschliche Wahrnehmung Elemente. 
+                            Durch die Gestaltgesetze kann gezielt aber auch eine Isolation erreicht werden.   </p>
+
+                            <img class = "content-img" src="files\img\Isolation.jpg" alt="">
+
+                        </div>
 
                     </div>
 
@@ -317,8 +339,6 @@
             ]]></content>
 
         </gesetz>
-
-
 
     </gesetze>
 
