@@ -9,8 +9,8 @@ include_once 'files/includes/evaluation.inc.php';
 $result=Endergebnis();
 //print_r($result);
 $size=$_SESSION['size'];
-/*session_unset();
-session_destroy();*/
+session_unset();
+session_destroy();
 
 echo"<div>";
 /*if($result>=50){
