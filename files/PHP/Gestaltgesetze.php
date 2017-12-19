@@ -42,7 +42,7 @@
                         <div class="col-sm-4">
                             <div class="divBorder" style="cursor: pointer;">
                                 <a href="index.php?page=appearance&gesetz=2">
-                                    <h1> Gesetz der <br> Nähe </h1>
+                                    <h1> Gesetz der Nähe </h1>
                                     <!-- <img class= "galerie-Bilder" src="files/minigolfbahnen/bahn2.jpg" alt="Bildbeschreibung Platzhalter"> -->
                                 </a>
                             </div>

@@ -397,6 +397,7 @@ text-align: center;
     text-decoration: none;
      text-align: center;
      padding-bottom: 1em;
+     margin-top: 30px;
 }
 
 .divBorder a {
@@ -414,20 +415,31 @@ text-align: center;
 
 /*Ende Gestaltgesetze*/
 
-/*GestaltgesetzeAlt*/
+
+/*CONTENT Gestaltgesetze */
+
+.content-block p{
+    padding: 80px 10px 20px !important;
+    min-width:200px !important;
+
+}
 
 .content-img-right{
     float: right !important;
     margin:50px !important;
     height: auto;
-    width: 300px;
+    
 }
 
 .content-img-left{
     float: left !important;
     margin:50px !important;
     height: auto;
-    width: 300px;
+
+}
+
+.content-img {
+    padding: 20px;
 }
 
 #Gestaltgesetze { 
