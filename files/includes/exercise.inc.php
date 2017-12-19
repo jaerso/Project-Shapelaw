@@ -1,8 +1,4 @@
 <?php
-//function difficulty($orderq){
-
-       
-        //}
 function generateQuestions($conn){
 $questions = array();
 $sql= "SELECT * FROM questions";
@@ -99,9 +95,7 @@ function printExercise($q,$a,$difficulty,$ordera,$value){
     echo"<input type='hidden' name='loc' value='".$_GET['id']."'>";
    
  // echo"  <button type='submit' onsubmit='return checkAnswer()'>Auswahl bestätigen</button>";
-        if($id!=0){
-                 echo"<button type='submit' name='backSubmit' class='btn btn-3'>zurück zu Frage ".$id."</button>";
-        }
+        
        
         $id+=2;
  if($id<=$g){
@@ -111,6 +105,10 @@ else{
         echo"<button type='submit' name='endSubmit' class='btn btn-5'>Test beenden</button>";    
 }
  echo "</form>";
+ $id-=2;
+ if($id!=0){
+        echo"<button type='submit' name='backSubmit' class='btn btn-3'><a href='index.php?page=test&id=$id'>zurück zu Frage ".$id."</a></button>";
+}
 return $id;
 
 }
