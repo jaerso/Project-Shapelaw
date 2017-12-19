@@ -69,7 +69,7 @@
         ?>
 
         <?php
-        if($_GET['page'] != 'home'  && $_GET['page'] != 'test' && $_GET['page'] != 'testevaluation' || $_GET['page'] == null){ echo "<div id=\"main\">";}
+        if($_GET['page'] != 'home'  && $_GET['page'] != 'test' && $_GET['page'] != 'testevaluation' && $_GET['page'] != 'difficulty' || $_GET['page'] == null){ echo "<div id=\"main\">";}
         ?>
 
             <?php
@@ -98,7 +98,7 @@
                 }
             ?>
 
-        <?php if($_GET['page']!='home'){echo "</div>";}
+        <?php if($_GET['page']!='home' && $_GET['page'] != 'test' && $_GET['page'] != 'testevaluation' || $_GET['page'] == null){echo "</div>";}
         ?>
 
     <footer id="footer">
