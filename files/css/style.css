@@ -456,8 +456,12 @@ list-style: none;
 }
 
     #footer h2, #footer h3, #footer h4 {
-        padding-left: 40px; 
+        padding-left: 0px; 
         color: #ffffff;
+    }
+
+    #footer ul {
+        padding-left: 0px; 
     }
 
     #footer p, #footer a, #footer li {
