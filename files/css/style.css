@@ -22,7 +22,7 @@ img {
 
 .main-content {
     position: relative;
-    padding-bottom: 280px;
+    padding-bottom: 245px;
 }
 
 /* Navigation */
@@ -73,12 +73,6 @@ background-color: #3F51B5;
         height: auto !important;
             
          } 
-/* center brand **WIP**
-         .navbar-brand{
-            text-align: center;
-            margin; auto;
-         } 
-         */
 
          .navbar-nav a {
             margin: 0.8em 0 0.8em 0 !important;
@@ -99,6 +93,21 @@ background-color: #3F51B5;
                     .divBorder h1 {
                          font-size: 1.5em !important;
                     }
+
+                    .btn-6 {
+                        
+                        line-height: 40px !important;
+                        width: 130px !important;
+                    }
+
+                    .home-center {
+                        
+                        top: 19% !important; 
+                        }
+
+                        .fa-angle-double-down {
+                            top: 36% !important;
+                        }
                 
  }
 
@@ -205,6 +214,11 @@ background-color: #3F51B5;
 	background: #ff0000;
 }
 
+.btn-3 a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
 .btn-3:hover a,
 .btn-3:active a{
 	color: rgb(255, 255, 255);
@@ -235,7 +249,7 @@ background-color: #3F51B5;
 /* btn-5 Absenden */
 
 .btn-5 {
-    margin: 10px 0px 0px 20px;
+    margin: 10px 0px 0px 0px;
 	border: 3px solid #00c510;
     color: #00c510;
     line-height: 20px;
@@ -254,27 +268,52 @@ background-color: #3F51B5;
 	color: rgb(255, 255, 255);
 }
 
-section {
-    min-height: 100%;  
-    text-align: center;
+/* btn-6 Schwierigkeitsgrad  */
+.btn-6 {
+    margin: 20px 0px 0px 0px;
+	border: 3px solid #fff;
+    color: #fff;
+    line-height: 60px;
+    width: 200px;
+    font-size: 1em;
+}
+
+.btn-6:hover,
+.btn-6:active {
+	color: #0e83cd;
+	background: #fff;
+}
+
+.btn-6:hover a,
+.btn-6:active a{
+	color: #303F9F;
 }
 
 .main {
     margin: 100px auto 50px auto ;
 }
 
+section {
+    text-align: center;
+}
+
 /* HOME */
+
+
 
 #start {
     background-image: url(../img/Nocube.png);
     background-repeat: repeat;
+
+    min-height: 100vh; 
+    text-align: center;
     
 }
 
 
 .home-center {
 position: absolute;
-top: 50%;
+top: 22%;
 left: 50%;
 transform: translate(-50%, -50%);
 text-align: center;  
@@ -293,7 +332,7 @@ text-align: center;
 
 .fa-angle-double-down {
     position: absolute;
-    top: 90%;
+    top: 38%;
     left: 51%;
     transform: translate(-90%, -51%);
     
@@ -305,12 +344,15 @@ text-align: center;
 #teststart {
     background-image: url(../img/Nocube.png);
     background-repeat: repeat;
+
+    min-height: 100vh; 
+    text-align: center;
     
 }
 
 .test-center {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;  
@@ -335,12 +377,15 @@ text-align: center;
 #testende {
     background-image: url(../img/Nocube.png);
     background-repeat: repeat;
+
+    min-height: 100vh; 
+    text-align: center;
     
 }
 
 .testende-center {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;  
@@ -361,11 +406,17 @@ text-align: center;
                 text-decoration: none;
             }
 
+            #testFragen {
+                min-height: 100vh;
+            }
+
 
 /* ABOUT */
 
 #about { 
     overflow:auto; 
+    min-height: 100vh; 
+    text-align: center; 
 }
 
 #about h1{

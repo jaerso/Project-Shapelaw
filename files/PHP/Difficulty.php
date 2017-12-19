@@ -7,19 +7,27 @@ include_once 'files/includes/db.inc.php';
 session_start();
 //$orderq=$_SESSION['orderq'];
 ?>
-<h1>Welchen Schwierigkeitsgrad hättest du gerne?<h1>
+<h1>Wähle einen Schwierigkeitsgrad!<h1>
 <?php
 //difficulty($orderq);
 //echo"<form action='difficulty($orderq)' method='post'>";
 ?>
 <form method='post'>
-<button type='submit' name='easy'>Leicht</button>
-<button type='submit' name='middle'>Mittel</button>
-<button type='submit' name='hard'>Hart</button>
+<div class="row">
+    <div class="col-lg-12 col-xs-12">
+<button type='submit' name='short' class="btn btn-6">Leicht</button>
+</div>
+<div class="col-lg-12 col-xs-12">
+<button type='submit' name='middle' class="btn btn-6">Mittel</button>
+</div>
+<div class="col-lg-12 col-xs-12">
+<button type='submit' name='long' class="btn btn-6">Hart</button>
+</div>
+</div>
 </form>
 <?php
 
-if(isset($_POST['easy'])){
+if(isset($_POST['short'])){
                 $orderq=array();
                 $orderq=$_SESSION['orderq'];
                 $difficulty=array();
@@ -40,7 +48,7 @@ if(isset($_POST['easy'])){
                 header("Location: index.php?page=test&id=1");
                 exit();
                 }       
-        elseif(isset($_POST['hard'])){
+        elseif(isset($_POST['long'])){
                $orderq=$_SESSION['orderq'];
                 $difficulty=array();
                 for($i=0;$i<15;$i++){

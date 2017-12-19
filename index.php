@@ -16,6 +16,7 @@
     <script src="files/js/scripts.js"></script>
 </head>
 
+
 <body>
     <div id="wrapper">
         <header id="header">
@@ -38,23 +39,6 @@
                         ";
                         echo $nav;
                     ?>
-
-                    <!--alte li-Elemente, ohne active status-->
-
-                        <!--
-                            <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=home">Start <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=appearance">Gestaltgesetze</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=dialog">Dialoggestaltung</a>
-                            </li>
-                            <li class="nav-item">
-                            <a class="nav-link" href="index.php?page=test">Test</a>
-                            </li>
-                            -->
                 
                     </ul>
                 </div>
@@ -108,7 +92,7 @@
                     <div class="row">
         
                         <div class="col-lg-12 col-md-12 col-xs-12">
-                            <a class="backtotop" href="#top"><span class="fa fa-angle-up fa-3x"></span></a>
+                            <a class="backtotop" alt="Anker nach oben" href="#top"><span class="fa fa-angle-up fa-3x"></span></a>
                             <hr id="hr-footer">
                         </div>
         

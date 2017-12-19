@@ -1,4 +1,5 @@
-<section id="start">
+
+  <div id="start">
   <div class="home-center">
     <h1>WILLKOMMEN</h1>
     <h2>auf <strong>Shapelaw</strong></h2>
@@ -16,12 +17,12 @@
   </div>
 
   <a href="#about">
-    <i class="fa fa-angle-double-down fa-4x" alt="Pfeil nach unten"></i>
+    <i class="fa fa-angle-double-down fa-4x" alt="Anker nach unten"></i>
   </a>
-              </div> <!-- ???? -->
-</section>
+    
+  </div>
 
-<section id="about">
+<div id="about">
   <div class="container">
 
     <h1>ÜBER UNS</h1>
@@ -32,4 +33,4 @@
       </p>
 
   </div>
-</section>
+</div>
