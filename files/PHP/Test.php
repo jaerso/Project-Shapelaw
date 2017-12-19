@@ -8,7 +8,7 @@ include_once 'files/includes/db.inc.php';
 $questions=generateQuestions($conn);
 $answers=generateAnswers($conn);
 $value=rightAnswers($conn);
-$difficulty=$_SESSION['difficultyq'];
+$difficulty=$_SESSION['difficulty'];
 $ordera=$_SESSION['ordera'];
 echo "<div>";
    printExercise($questions,$answers,$difficulty,$ordera,$value);

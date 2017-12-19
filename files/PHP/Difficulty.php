@@ -18,34 +18,35 @@ session_start();
 <button type='submit' name='hard'>Hart</button>
 </form>
 <?php
+
 if(isset($_POST['easy'])){
                 $orderq=array();
                 $orderq=$_SESSION['orderq'];
-                $difficultyq=array();
+                $difficulty=array();
                 for($i=0;$i<5;$i++){
-                        $difficultyq[$i]=$orderq[$i];
+                        $difficulty[$i]=$orderq[$i];
                 }
-                $_SESSION['difficultyq']=$difficultyq;
+                $_SESSION['difficulty']=$difficulty;
                 header("Location: index.php?page=test&id=1");
                 exit();
         }
         elseif(isset($_POST['middle'])){
                 $orderq=$_SESSION['orderq'];
-                $difficultyq=array();
+                $difficulty=array();
                 for($i=0;$i<10;$i++){
-                        $difficultyq[$i]=$orderq[$i];
+                        $difficulty[$i]=$orderq[$i];
                 }
-                $_SESSION['difficultyq']=$difficultyq;
+                $_SESSION['difficulty']=$difficulty;
                 header("Location: index.php?page=test&id=1");
                 exit();
                 }       
         elseif(isset($_POST['hard'])){
                $orderq=$_SESSION['orderq'];
-                $difficultyq=array();
+                $difficulty=array();
                 for($i=0;$i<15;$i++){
-                        $difficultyq[$i]=$orderq[$i];
+                        $difficulty[$i]=$orderq[$i];
                 }
-                $_SESSION['difficultyq']=$difficultyq;
+                $_SESSION['difficulty']=$difficulty;
                 header("Location: index.php?page=test&id=1");
                 exit();
                 }
