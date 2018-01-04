@@ -12,7 +12,9 @@ $difficulty=$_SESSION['difficulty'];
 $ordera=$_SESSION['ordera'];
 echo "<div id='testFragen'>";
    printExercise($questions,$answers,$difficulty,$ordera,$value);
+
    generateOrderAnswer();
+   
 // echo"<p id='check'></p>";
 
 echo "</div>";
