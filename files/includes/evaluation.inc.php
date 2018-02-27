@@ -3,7 +3,7 @@ session_start();
 $evaluation=array();
 
 if(isset($_POST['answerSubmit'])){
-    $v=$_POST['answersgroup'];
+    $v=$_POST['answergroup'];
     $loc=$_POST['loc'];
     $loc-=1;
     $evaluation=$_SESSION['evaluation'];
@@ -22,7 +22,7 @@ header("Location: ../../index.php?page=test&id=$loc");
 exit();
 }*/
 elseif(isset($_POST['endSubmit'])){
-    $v=$_POST['answersgroup'];
+    $v=$_POST['answergroup'];
     $loc=$_POST['loc'];
     $loc-=1;
     $evaluation=$_SESSION['evaluation'];

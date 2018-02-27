@@ -304,6 +304,27 @@ background-color: #3F51B5;
 	color: #303F9F;
 }
 
+/*btn-7 überprüfung*/
+.btn-7 {
+    margin: 10px 10px 0px 0px;
+	border: 3px solid #a00ecd;
+    color: #a00ecd;
+    line-height: 20px;
+    width: 220px;
+    font-size: 1em;
+}
+
+.btn-7:hover,
+.btn-7:active {
+	color: #ffffff;
+	background: #a00ecd;
+}
+
+.btn-7:hover a,
+.btn-7:active a{
+	color: rgb(255, 255, 255);
+}
+
 .main {
     margin: 100px auto 50px auto ;
 }

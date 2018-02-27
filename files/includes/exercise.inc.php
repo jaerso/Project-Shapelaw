@@ -85,14 +85,14 @@ function printExercise($q,$a,$difficulty,$ordera,$value){
     $order=$difficulty[$id];
     echo "<h2>$q[$order]</h2><br>";
     $answers='';
-    echo"<form action='files/includes/evaluation.inc.php' method='post'>";
+    echo"<form name='test' action='files/includes/evaluation.inc.php' method='post'>";
     echo "<div id='testBorder'>";
     for($i=0;$i<sizeof($ordera);$i++,$j++){
           $o=$ordera[$j];
           $print= $a[$order][$o];
           $v=$value[$order][$o];
           
-    echo "<div><label><input type='radio' name='answersgroup' value='$v' required> $print</label></div><br>";
+    echo "<div><label><input type='radio' name='answergroup' value='$v' required> $print</label></div><br>";
          }
          echo "</div>";
     echo"<input type='hidden' name='loc' value='".$_GET['id']."'>";
@@ -105,9 +105,16 @@ function printExercise($q,$a,$difficulty,$ordera,$value){
          echo"<button type='submit' name='answerSubmit' class='btn btn-4'>Weiter zu Frage $id</button>";
  }
 else{
-        echo"<button type='submit' name='endSubmit' class='btn btn-5'>Test beenden</button>";    
+        echo"<button type='submit' name='endSubmit' class='btn btn-5'>Test beenden</button> ";
 }
+
  echo "</form>";
+
+ echo"<div class='row'>";
+ echo"<div class='col-lg-12 col-xs-12'>";
+ echo"<button type='submit' class='btn btn-7' onclick='return checkAnswer()'>Auswahl überprüfen</button>";  
+ echo"</div>"; 
+ echo"</div>"; 
  $id-=2;
  if($id!=0){
         echo"<button type='submit' name='backSubmit' class='btn btn-3'><a href='index.php?page=test&id=$id'>zurück zu Frage ".$id."</a></button>";
